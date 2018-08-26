@@ -1,0 +1,7 @@
+D:\Gaston-Pesoa\ejercicio1\Ej_4\bin\Debug\Ej_4.exe.config
+D:\Gaston-Pesoa\ejercicio1\Ej_4\bin\Debug\Ej_4.exe
+D:\Gaston-Pesoa\ejercicio1\Ej_4\bin\Debug\Ej_4.pdb
+D:\Gaston-Pesoa\ejercicio1\Ej_4\obj\Debug\Ej_4.csprojAssemblyReference.cache
+D:\Gaston-Pesoa\ejercicio1\Ej_4\obj\Debug\Ej_4.csproj.CoreCompileInputs.cache
+D:\Gaston-Pesoa\ejercicio1\Ej_4\obj\Debug\Ej_4.exe
+D:\Gaston-Pesoa\ejercicio1\Ej_4\obj\Debug\Ej_4.pdb

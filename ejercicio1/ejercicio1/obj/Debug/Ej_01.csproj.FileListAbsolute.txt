@@ -1,0 +1,7 @@
+E:\pen\UTN\2do-cuatri\programacion II\Gaston-Pesoa\clase_2\ejercicio1\ejercicio1\bin\Debug\ejercicio1.exe.config
+E:\pen\UTN\2do-cuatri\programacion II\Gaston-Pesoa\clase_2\ejercicio1\ejercicio1\bin\Debug\ejercicio1.exe
+E:\pen\UTN\2do-cuatri\programacion II\Gaston-Pesoa\clase_2\ejercicio1\ejercicio1\bin\Debug\ejercicio1.pdb
+E:\pen\UTN\2do-cuatri\programacion II\Gaston-Pesoa\clase_2\ejercicio1\ejercicio1\obj\Debug\Ej_01.csprojAssemblyReference.cache
+E:\pen\UTN\2do-cuatri\programacion II\Gaston-Pesoa\clase_2\ejercicio1\ejercicio1\obj\Debug\Ej_01.csproj.CoreCompileInputs.cache
+E:\pen\UTN\2do-cuatri\programacion II\Gaston-Pesoa\clase_2\ejercicio1\ejercicio1\obj\Debug\ejercicio1.exe
+E:\pen\UTN\2do-cuatri\programacion II\Gaston-Pesoa\clase_2\ejercicio1\ejercicio1\obj\Debug\ejercicio1.pdb
