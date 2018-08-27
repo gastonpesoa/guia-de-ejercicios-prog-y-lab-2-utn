@@ -1,0 +1,7 @@
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_06\bin\Debug\Ej_06.exe.config
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_06\bin\Debug\Ej_06.exe
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_06\bin\Debug\Ej_06.pdb
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_06\obj\Debug\Ej_06.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_06\obj\Debug\Ej_06.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_06\obj\Debug\Ej_06.exe
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_06\obj\Debug\Ej_06.pdb
