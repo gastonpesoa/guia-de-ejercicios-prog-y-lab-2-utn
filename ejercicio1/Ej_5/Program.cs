@@ -25,7 +25,7 @@ namespace Ej_5
                 {
                     acum = acum + (i - 1);
                     suma = i + 1;
-                    aux = i + 2;
+                    aux = suma + 1;
 
                     while (suma <= acum)
                     {
