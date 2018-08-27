@@ -33,7 +33,7 @@ namespace Ej_5
                         
                         if (suma == acum)
                         {
-                            Console.WriteLine("{0} es centro numerico", i);
+                            Console.WriteLine("{0} es centro numerico grupo 1: {1} grupo 2: {2}", i, acum, suma);
                         }
                         aux++;
                     }
