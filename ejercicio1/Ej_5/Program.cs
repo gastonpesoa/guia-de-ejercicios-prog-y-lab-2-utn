@@ -13,8 +13,8 @@ namespace Ej_5
             Console.Title = "Ej_5";
 
             string numeroStr;
-            int numero, i, aux = 0;
-            int acum = 1, suma = 0;
+            int numero, i;
+            int acum = 0, suma = 0, aux = 0;
 
             Console.Write("Ingrese un numero: ");
             numeroStr = Console.ReadLine();
@@ -25,17 +25,18 @@ namespace Ej_5
                 {
                     acum = acum + (i - 1);
                     suma = i + 1;
+                    aux = i + 2;
 
-                    while(acum <= suma)
+                    while (suma <= acum)
                     {
                         suma = suma + aux;
-                        aux++;
+                        
                         if (suma == acum)
                         {
                             Console.WriteLine("{0} es centro numerico", i);
                         }
+                        aux++;
                     }
-                    
                 }   
             }
             Console.ReadKey();
