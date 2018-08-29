@@ -12,3 +12,10 @@ E:\pen\UTN\2do-cuatri\programacion II\Gaston-Pesoa\clase_2\ejercicio1\Ej_12\obj\
 E:\pen\UTN\2do-cuatri\programacion II\Gaston-Pesoa\clase_2\ejercicio1\Ej_12\obj\Debug\Ej_12.csproj.CoreCompileInputs.cache
 E:\pen\UTN\2do-cuatri\programacion II\Gaston-Pesoa\clase_2\ejercicio1\Ej_12\obj\Debug\Ej_12.exe
 E:\pen\UTN\2do-cuatri\programacion II\Gaston-Pesoa\clase_2\ejercicio1\Ej_12\obj\Debug\Ej_12.pdb
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_12\bin\Debug\Ej_12.exe.config
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_12\bin\Debug\Ej_12.exe
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_12\bin\Debug\Ej_12.pdb
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_12\obj\Debug\Ej_12.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_12\obj\Debug\Ej_12.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_12\obj\Debug\Ej_12.exe
+C:\Users\Gaston-Pesoa\Git\utn-prog-lab-2-guia-de-ejercicios\ejercicio1\Ej_12\obj\Debug\Ej_12.pdb

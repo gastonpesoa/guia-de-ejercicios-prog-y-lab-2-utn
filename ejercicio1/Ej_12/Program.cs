@@ -17,7 +17,7 @@ namespace Ej_12
 
             do
             {
-                Console.WriteLine("Ingrese un numero: ");
+                Console.Write("Ingrese un numero: ");
                 numStr = Console.ReadLine();
 
                 if (int.TryParse(numStr, out number))
@@ -30,6 +30,8 @@ namespace Ej_12
                 continuar = char.Parse(continuarStr);
 
             } while (ValidarRespuesta.ValidaS_N(continuar));
+
+            Console.WriteLine("Suma total de los numeros ingresados: {0}", sum);
             
             Console.ReadKey();
         }
