@@ -11,27 +11,43 @@ namespace Ej_13
         public static string DecimalBinario(double numeroDecimal)
         {
             string numeroBinario = "";
-            double cociente = numeroDecimal / 2;
-            double resto = numeroDecimal % 2;
+            long cociente = (long)numeroDecimal;
+            long resto = (long)numeroDecimal;
 
-            while (cociente > 0)
+            while (cociente >= 1)
             {
-
-                if (resto > 0)
+                resto = cociente % 2;
+                cociente = cociente / 2;
+                
+                if (resto != 0)
                 {
-                    numeroBinario = numeroBinario + "1";
+                    numeroBinario = "1" + numeroBinario;
+
                 }
                 else
                 {
-                    if(resto == 0)
-                    {
-                        numeroBinario = numeroBinario + "0";
-                    }
+                    numeroBinario = "0" + numeroBinario;
                 }
-                cociente = cociente / 2;
-                resto = cociente % 2;
             }
+
             return numeroBinario;
         } 
+
+        public static double BinarioDecimal(string numeroBinario)
+        {
+            double numeroDecimal = 0;
+            int potencia = 1;
+
+            for (int i = numeroBinario.Length - 1; i >= 0 ; i--)
+            {   
+                if (numeroBinario[i] == '1')
+                {
+                    numeroDecimal += potencia;
+                }
+                potencia *= 2;
+            }
+
+            return numeroDecimal;
+        }
     }
 }
