@@ -22,7 +22,6 @@ namespace Ej_13
                 if (resto != 0)
                 {
                     numeroBinario = "1" + numeroBinario;
-
                 }
                 else
                 {
