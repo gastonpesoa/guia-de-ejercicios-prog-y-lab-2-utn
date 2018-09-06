@@ -36,5 +36,37 @@ namespace Ej_20
         {
             return Euro.cotizRespectoDolar;
         }
+
+        /// <summary>
+        /// Conversion explicita del tipo Euro al tipo Dolar
+        /// </summary>
+        /// <param name="e">Objeto del tipo Euro a ser convertido</param>
+        public static explicit operator Dolar(Euro e)
+        {
+            Dolar d = new Dolar(e.GetCantidad() * Dolar.GetCotizacion());
+            return d;
+        }
+
+        /// <summary>
+        /// Conversion explicita del tipo Euro al tipo Pesos
+        /// </summary>
+        /// <param name="e">Objeto del tipo Euro a ser convertido</param>
+        public static explicit operator Pesos(Euro e)
+        {
+            Dolar d = (Dolar)e;
+            return (Pesos)d;
+        }
+
+        /// <summary>
+        /// Conversion implicita del tipo double al tipo Euro
+        /// </summary>
+        /// <param name="d">Valor del tipo double a ser convertido</param>
+        public static implicit operator Euro(double d)
+        {
+            Euro e = new Euro(d);
+            return e;
+        }
+
+        public static 
     }
 }
