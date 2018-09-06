@@ -44,6 +44,10 @@ namespace Repaso
         public static bool operator ==(Producto p1, Producto p2)
         {
             bool returnAux = false;
+            if (object.ReferenceEquals(p1,null) || p2 is null)
+            {
+                return false;
+            }
             if(p1.marca == p2.marca && p1.codigoDeBarra == p2.codigoDeBarra)
             {
                 returnAux = true;

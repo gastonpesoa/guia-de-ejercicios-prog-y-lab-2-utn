@@ -1,7 +1,0 @@
-D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_16\bin\Debug\Ej_16.exe.config
-D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_16\bin\Debug\Ej_16.exe
-D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_16\bin\Debug\Ej_16.pdb
-D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_16\obj\Debug\Ej_16.csprojAssemblyReference.cache
-D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_16\obj\Debug\Ej_16.csproj.CoreCompileInputs.cache
-D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_16\obj\Debug\Ej_16.exe
-D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_16\obj\Debug\Ej_16.pdb
