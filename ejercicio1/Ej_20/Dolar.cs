@@ -43,8 +43,8 @@ namespace Ej_20
         /// <param name="d">Objeto Dolar a ser convertido</param>
         public static explicit operator Euro(Dolar d)
         {
-            Euro temp = new Euro(d.GetCantidad() * Euro.GetCotizacion());
-            return temp;
+            Euro e = new Euro(d.GetCantidad() * Euro.GetCotizacion());
+            return e;
         }
 
         /// <summary>
@@ -53,8 +53,8 @@ namespace Ej_20
         /// <param name="d">Objeto Dolar a ser convertido</param>
         public static explicit operator Pesos(Dolar d)
         {
-            Pesos temp = new Pesos(d.GetCantidad() * Pesos.GetCotizacion());
-            return temp;
+            Pesos p = new Pesos(d.GetCantidad() * Pesos.GetCotizacion());
+            return p;
         }
 
         /// <summary>
@@ -156,7 +156,7 @@ namespace Ej_20
         /// <returns>Resultado de la suma en tipo Dolar</returns>
         public static Dolar operator +(Dolar d, Euro e)
         {
-            return (Dolar)e + d;
+            return ((Dolar)e).GetCantidad() + d.GetCantidad();
         }
 
         /// <summary>
@@ -167,7 +167,7 @@ namespace Ej_20
         /// <returns>Resultado de la suma en tipo Dolar</returns>
         public static Dolar operator +(Dolar d, Pesos p)
         {
-            return (Dolar)p + d;
+            return ((Dolar)p).GetCantidad() + d.GetCantidad();
         }
 
         /// <summary>
@@ -178,7 +178,7 @@ namespace Ej_20
         /// <returns>Resultado de la resta en tipo Dolar</returns>
         public static Dolar operator -(Dolar d, Euro e)
         {
-            return (Dolar)e - d;
+            return ((Dolar)e).GetCantidad() - d.GetCantidad();
         }
 
         /// <summary>
@@ -187,9 +187,9 @@ namespace Ej_20
         /// <param name="d">Objeto Dolar a ser restado</param>
         /// <param name="p">Objeto del tipo Pesos a ser convertido a tipo Dolar y restado</param>
         /// <returns>Resultado de la resta en tipo Dolar</returns>
-        public static Dolar operator +(Dolar d, Pesos p)
+        public static Dolar operator -(Dolar d, Pesos p)
         {
-            return (Dolar)p - d;
+            return ((Dolar)p).GetCantidad() - d.GetCantidad();
         }
     }
 }

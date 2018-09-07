@@ -67,6 +67,75 @@ namespace Ej_20
             return e;
         }
 
-        public static 
+        /// <summary>
+        /// Sobrecarga del operador == compara cantidades entre los objetos del tipo Euro y Dolar
+        /// </summary>
+        /// <param name="e">Objeto del tipo Euro a ser comparado</param>
+        /// <param name="d">Objeto del tipo Dolar a ser comparado</param>
+        /// <returns></returns>
+        public static bool operator ==(Euro e, Dolar d)
+        {
+            bool returnAux = false;
+            if(e.GetCantidad() == d.GetCantidad())
+            {
+                returnAux = true;
+            }
+            return returnAux;
+        }
+        
+        public static bool operator ==(Euro e, Pesos p)
+        {
+            bool returnAux = false;
+            if (e.GetCantidad() == p.GetCantidad())
+            {
+                returnAux = true;
+            }
+            return returnAux;
+        }
+
+        public static bool operator ==(Euro e1, Euro e2)
+        {
+            bool returnAux = false;
+            if (e1.GetCantidad() == e2.GetCantidad())
+            {
+                returnAux = true;
+            }
+            return returnAux;
+        }
+
+        public static bool operator !=(Euro e, Dolar d)
+        {
+            return !(e == d);
+        }
+
+        public static bool operator !=(Euro e, Pesos p)
+        {
+            return !(e == p);
+        }
+
+        public static bool operator !=(Euro e1, Euro e2)
+        {
+            return !(e1 == e2);
+        }
+
+        public static Euro operator +(Euro e, Dolar d)
+        {
+            return ((Euro)d).GetCantidad() + e.GetCantidad();
+        }
+
+        public static Euro operator +(Euro e, Pesos p)
+        {
+            return ((Euro)p).GetCantidad() + p.GetCantidad();
+        }
+
+        public static Euro operator -(Euro e, Dolar d)
+        {
+            return ((Euro)d).GetCantidad() - e.GetCantidad();
+        }
+
+        public static Euro operator -(Euro e, Pesos p)
+        {
+            return ((Euro)p).GetCantidad() - e.GetCantidad();
+        }
     }
 }
