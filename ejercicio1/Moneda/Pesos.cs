@@ -11,7 +11,7 @@ namespace Moneda
         private double cantidad;
         private static float cotizRespectoDolar;
 
-        private Pesos()
+        static Pesos()
         {
             Pesos.cotizRespectoDolar = 1 / (float)17.55;
         }

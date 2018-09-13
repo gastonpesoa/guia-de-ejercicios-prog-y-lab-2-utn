@@ -11,7 +11,7 @@ namespace Moneda
         private double cantidad;
         private static float cotizRespectoDolar;
 
-        private Dolar()
+        static Dolar()
         {
             Dolar.cotizRespectoDolar = 1;
         }
@@ -43,7 +43,7 @@ namespace Moneda
         /// <param name="d">Objeto Dolar a ser convertido</param>
         public static explicit operator Euro(Dolar d)
         {
-            Euro e = new Euro(d.GetCantidad() * Euro.GetCotizacion());
+            Euro e = new Euro(d.GetCantidad() / Euro.GetCotizacion());
             return e;
         }
 

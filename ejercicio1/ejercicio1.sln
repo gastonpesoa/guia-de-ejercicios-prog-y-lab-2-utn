@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moneda", "Moneda\Moneda.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_23", "Ej_23\Ej_23.csproj", "{6DA7C6C9-A5BE-4DBE-B91E-0CA225B55482}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_26", "Ej_26\Ej_26.csproj", "{D5B8EDBA-609B-41AC-BA6A-E55D03C3292E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{6DA7C6C9-A5BE-4DBE-B91E-0CA225B55482}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DA7C6C9-A5BE-4DBE-B91E-0CA225B55482}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DA7C6C9-A5BE-4DBE-B91E-0CA225B55482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B8EDBA-609B-41AC-BA6A-E55D03C3292E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B8EDBA-609B-41AC-BA6A-E55D03C3292E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B8EDBA-609B-41AC-BA6A-E55D03C3292E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B8EDBA-609B-41AC-BA6A-E55D03C3292E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
