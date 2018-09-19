@@ -1,0 +1,7 @@
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_21_Conversor_Temperatura\bin\Debug\Ej_21_Conversor_Temperatura.exe.config
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_21_Conversor_Temperatura\bin\Debug\Ej_21_Conversor_Temperatura.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_21_Conversor_Temperatura\bin\Debug\Ej_21_Conversor_Temperatura.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_21_Conversor_Temperatura\obj\Debug\Ej_21_Conversor_Temperatura.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_21_Conversor_Temperatura\obj\Debug\Ej_21_Conversor_Temperatura.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_21_Conversor_Temperatura\obj\Debug\Ej_21_Conversor_Temperatura.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_21_Conversor_Temperatura\obj\Debug\Ej_21_Conversor_Temperatura.pdb

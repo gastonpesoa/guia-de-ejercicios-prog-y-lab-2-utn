@@ -1,0 +1,10 @@
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_28_Diccionarios\bin\Debug\Ej_28_Diccionarios.exe.config
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_28_Diccionarios\bin\Debug\Ej_28_Diccionarios.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_28_Diccionarios\bin\Debug\Ej_28_Diccionarios.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_28_Diccionarios\obj\Debug\Ej_28_Diccionarios.Form1.resources
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_28_Diccionarios\obj\Debug\Ej_28_Diccionarios.Properties.Resources.resources
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_28_Diccionarios\obj\Debug\Ej_28_Diccionarios.csproj.GenerateResource.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_28_Diccionarios\obj\Debug\Ej_28_Diccionarios.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_28_Diccionarios\obj\Debug\Ej_28_Diccionarios.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_28_Diccionarios\obj\Debug\Ej_28_Diccionarios.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_28_Diccionarios\obj\Debug\Ej_28_Diccionarios.csprojAssemblyReference.cache

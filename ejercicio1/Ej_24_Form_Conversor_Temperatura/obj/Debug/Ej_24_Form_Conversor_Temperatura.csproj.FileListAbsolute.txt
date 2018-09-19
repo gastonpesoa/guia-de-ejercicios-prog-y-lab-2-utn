@@ -1,0 +1,13 @@
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\bin\Debug\Ej_24_Form_Conversor_Temperatura.exe.config
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\bin\Debug\Ej_24_Form_Conversor_Temperatura.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\bin\Debug\Ej_24_Form_Conversor_Temperatura.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\obj\Debug\Ej_24_Form_Conversor_Temperatura.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\obj\Debug\Ej_24_Form_Conversor_Temperatura.Form1.resources
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\obj\Debug\Ej_24_Form_Conversor_Temperatura.Properties.Resources.resources
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\obj\Debug\Ej_24_Form_Conversor_Temperatura.csproj.GenerateResource.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\obj\Debug\Ej_24_Form_Conversor_Temperatura.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\obj\Debug\Ej_24_Form_Conversor_Temperatura.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\obj\Debug\Ej_24_Form_Conversor_Temperatura.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\bin\Debug\MedidasTemperatura.dll
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\bin\Debug\MedidasTemperatura.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_24_Form_Conversor_Temperatura\obj\Debug\Ej_24_Form_Conversor_Temperatura.csproj.CopyComplete

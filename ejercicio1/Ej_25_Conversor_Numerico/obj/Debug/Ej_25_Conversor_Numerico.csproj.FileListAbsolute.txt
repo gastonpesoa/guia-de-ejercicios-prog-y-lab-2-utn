@@ -1,0 +1,13 @@
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\bin\Debug\Ej_25_Conversor_Numerico.exe.config
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\bin\Debug\Ej_25_Conversor_Numerico.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\bin\Debug\Ej_25_Conversor_Numerico.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\bin\Debug\Numero.dll
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\bin\Debug\Numero.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\obj\Debug\Ej_25_Conversor_Numerico.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\obj\Debug\Ej_25_Conversor_Numerico.Form1.resources
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\obj\Debug\Ej_25_Conversor_Numerico.Properties.Resources.resources
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\obj\Debug\Ej_25_Conversor_Numerico.csproj.GenerateResource.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\obj\Debug\Ej_25_Conversor_Numerico.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\obj\Debug\Ej_25_Conversor_Numerico.csproj.CopyComplete
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\obj\Debug\Ej_25_Conversor_Numerico.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_25_Conversor_Numerico\obj\Debug\Ej_25_Conversor_Numerico.pdb
