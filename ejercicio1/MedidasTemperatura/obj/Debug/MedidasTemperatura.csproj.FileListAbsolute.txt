@@ -1,0 +1,6 @@
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\MedidasTemperatura\bin\Debug\MedidasTemperatura.dll
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\MedidasTemperatura\bin\Debug\MedidasTemperatura.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\MedidasTemperatura\obj\Debug\MedidasTemperatura.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\MedidasTemperatura\obj\Debug\MedidasTemperatura.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\MedidasTemperatura\obj\Debug\MedidasTemperatura.dll
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\MedidasTemperatura\obj\Debug\MedidasTemperatura.pdb
