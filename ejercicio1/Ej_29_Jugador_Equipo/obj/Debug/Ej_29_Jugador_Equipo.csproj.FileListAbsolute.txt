@@ -5,3 +5,10 @@ C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_29_Jugador_Equipo\obj\Debug\Ej_29_Jugador_Equipo.exe
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_29_Jugador_Equipo\obj\Debug\Ej_29_Jugador_Equipo.pdb
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_29_Jugador_Equipo\obj\Debug\Ej_29_Jugador_Equipo.csprojAssemblyReference.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_29_Jugador_Equipo\bin\Debug\Ej_29_Jugador_Equipo.exe.config
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_29_Jugador_Equipo\bin\Debug\Ej_29_Jugador_Equipo.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_29_Jugador_Equipo\bin\Debug\Ej_29_Jugador_Equipo.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_29_Jugador_Equipo\obj\Debug\Ej_29_Jugador_Equipo.csprojAssemblyReference.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_29_Jugador_Equipo\obj\Debug\Ej_29_Jugador_Equipo.csproj.CoreCompileInputs.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_29_Jugador_Equipo\obj\Debug\Ej_29_Jugador_Equipo.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_29_Jugador_Equipo\obj\Debug\Ej_29_Jugador_Equipo.pdb

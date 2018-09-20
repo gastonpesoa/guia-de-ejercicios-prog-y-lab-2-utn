@@ -1,0 +1,7 @@
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_33_Libro_Indexador\bin\Debug\Ej_33_Libro_Indexador.exe.config
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_33_Libro_Indexador\bin\Debug\Ej_33_Libro_Indexador.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_33_Libro_Indexador\bin\Debug\Ej_33_Libro_Indexador.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_33_Libro_Indexador\obj\Debug\Ej_33_Libro_Indexador.csprojAssemblyReference.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_33_Libro_Indexador\obj\Debug\Ej_33_Libro_Indexador.csproj.CoreCompileInputs.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_33_Libro_Indexador\obj\Debug\Ej_33_Libro_Indexador.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_33_Libro_Indexador\obj\Debug\Ej_33_Libro_Indexador.pdb

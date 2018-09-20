@@ -10,8 +10,6 @@ namespace Ej_29_Jugador_Equipo
     {
         static void Main(string[] args)
         {
-            bool entro;
-
             Equipo e1 = new Equipo(11, "La Sub 21");
 
             Jugador j1 = new Jugador(30456987, "Juan Cholo", 54, 154);
