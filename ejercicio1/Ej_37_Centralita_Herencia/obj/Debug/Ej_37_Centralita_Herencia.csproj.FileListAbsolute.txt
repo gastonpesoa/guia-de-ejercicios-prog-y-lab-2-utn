@@ -1,0 +1,7 @@
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_37_Centralita_Herencia\bin\Debug\Ej_37_Centralita_Herencia.exe.config
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_37_Centralita_Herencia\bin\Debug\Ej_37_Centralita_Herencia.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_37_Centralita_Herencia\bin\Debug\Ej_37_Centralita_Herencia.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_37_Centralita_Herencia\obj\Debug\Ej_37_Centralita_Herencia.csprojAssemblyReference.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_37_Centralita_Herencia\obj\Debug\Ej_37_Centralita_Herencia.csproj.CoreCompileInputs.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_37_Centralita_Herencia\obj\Debug\Ej_37_Centralita_Herencia.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_37_Centralita_Herencia\obj\Debug\Ej_37_Centralita_Herencia.pdb
