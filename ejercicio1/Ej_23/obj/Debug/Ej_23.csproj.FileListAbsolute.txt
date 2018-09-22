@@ -11,3 +11,16 @@ C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\obj\Debug\Ej_23.csproj.CopyComplete
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\obj\Debug\Ej_23.exe
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\obj\Debug\Ej_23.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\obj\Debug\Ej_23.csprojAssemblyReference.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\obj\Debug\Ej_23.Form1.resources
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\obj\Debug\Ej_23.Properties.Resources.resources
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\obj\Debug\Ej_23.csproj.GenerateResource.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\obj\Debug\Ej_23.csproj.CoreCompileInputs.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\obj\Debug\Ej_23.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\obj\Debug\Ej_23.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\bin\Debug\Ej_23.exe.config
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\bin\Debug\Ej_23.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\bin\Debug\Ej_23.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\bin\Debug\Moneda.dll
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\bin\Debug\Moneda.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_23\obj\Debug\Ej_23.csproj.CopyComplete

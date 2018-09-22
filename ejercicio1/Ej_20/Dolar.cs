@@ -17,6 +17,7 @@ namespace Ej_20
         }
 
         public Dolar(double cantidad)
+            : this()
         {
             this.cantidad = cantidad;
         }
@@ -43,7 +44,7 @@ namespace Ej_20
         /// <param name="d">Objeto Dolar a ser convertido</param>
         public static explicit operator Euro(Dolar d)
         {
-            Euro e = new Euro(d.GetCantidad() * Euro.GetCotizacion());
+            Euro e = new Euro(d.GetCantidad() / Euro.GetCotizacion());
             return e;
         }
 

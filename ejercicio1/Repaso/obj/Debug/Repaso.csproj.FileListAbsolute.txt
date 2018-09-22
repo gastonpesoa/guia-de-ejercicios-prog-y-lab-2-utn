@@ -4,3 +4,4 @@ D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Repaso\bin\Debug\
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Repaso\obj\Debug\Repaso.csproj.CoreCompileInputs.cache
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Repaso\obj\Debug\Repaso.exe
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Repaso\obj\Debug\Repaso.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Repaso\obj\Debug\Repaso.csprojAssemblyReference.cache

@@ -41,6 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moneda", "Moneda\Moneda.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_23", "Ej_23\Ej_23.csproj", "{6DA7C6C9-A5BE-4DBE-B91E-0CA225B55482}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_21_Conversor_Temperatura", "Ej_21_Conversor_Temperatura\Ej_21_Conversor_Temperatura.csproj", "{9A535464-B50F-432D-A2DF-19390FD5D154}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedidasTemperatura", "MedidasTemperatura\MedidasTemperatura.csproj", "{72D83161-9C2F-4262-818C-2E2F137ABAA1}"
@@ -60,6 +61,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_30_Competencia_AutoF1", "Ej_30_Competencia_AutoF1\Ej_30_Competencia_AutoF1.csproj", "{1A8016BA-A63A-4DE8-8D09-9DCD7DA8DAB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_31_Cliente_Negocio_PuestoAtencion", "Ej_31_Cliente_Negocio_PuestoAtencion\Ej_31_Cliente_Negocio_PuestoAtencion.csproj", "{8B1A0787-EC78-4DFF-88AC-119EED410DD0}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_26", "Ej_26\Ej_26.csproj", "{D5B8EDBA-609B-41AC-BA6A-E55D03C3292E}"
+>>>>>>> f28ede81d566bfe2f5fe1ea5c746ab3412adcc02
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +147,7 @@ Global
 		{6DA7C6C9-A5BE-4DBE-B91E-0CA225B55482}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DA7C6C9-A5BE-4DBE-B91E-0CA225B55482}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DA7C6C9-A5BE-4DBE-B91E-0CA225B55482}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{9A535464-B50F-432D-A2DF-19390FD5D154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9A535464-B50F-432D-A2DF-19390FD5D154}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A535464-B50F-432D-A2DF-19390FD5D154}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -183,6 +188,12 @@ Global
 		{8B1A0787-EC78-4DFF-88AC-119EED410DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B1A0787-EC78-4DFF-88AC-119EED410DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B1A0787-EC78-4DFF-88AC-119EED410DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{D5B8EDBA-609B-41AC-BA6A-E55D03C3292E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B8EDBA-609B-41AC-BA6A-E55D03C3292E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B8EDBA-609B-41AC-BA6A-E55D03C3292E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B8EDBA-609B-41AC-BA6A-E55D03C3292E}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> f28ede81d566bfe2f5fe1ea5c746ab3412adcc02
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

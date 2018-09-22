@@ -5,6 +5,7 @@ D:\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\obj\Debug\Ej_13.csprojAs
 D:\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\obj\Debug\Ej_13.csproj.CoreCompileInputs.cache
 D:\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\obj\Debug\Ej_13.exe
 D:\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\obj\Debug\Ej_13.pdb
+<<<<<<< HEAD
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\bin\Debug\Ej_13.exe.config
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\bin\Debug\Ej_13.exe
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\bin\Debug\Ej_13.pdb
@@ -12,3 +13,12 @@ C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\obj\Debug\Ej_13.csproj.CoreCompileInputs.cache
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\obj\Debug\Ej_13.exe
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\obj\Debug\Ej_13.pdb
+=======
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\bin\Debug\Ej_13.exe.config
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\bin\Debug\Ej_13.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\bin\Debug\Ej_13.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\obj\Debug\Ej_13.csprojAssemblyReference.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\obj\Debug\Ej_13.csproj.CoreCompileInputs.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\obj\Debug\Ej_13.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_13\obj\Debug\Ej_13.pdb
+>>>>>>> f28ede81d566bfe2f5fe1ea5c746ab3412adcc02

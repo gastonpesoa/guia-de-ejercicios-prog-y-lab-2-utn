@@ -17,6 +17,7 @@ namespace Ej_20
         }
 
         public Pesos(double cantidad)
+            : this()
         {
             this.cantidad = cantidad;
         }

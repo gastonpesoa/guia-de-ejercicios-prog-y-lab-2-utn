@@ -27,6 +27,9 @@ namespace Ej_20
             Console.WriteLine("d1 = d3?: {0}", d1 == d3);
             Console.WriteLine("d1 != d3?: {0}", d1 != d3);
             //Console.WriteLine("d1 + d2 = {0}", d1 + d2);
+            Console.WriteLine("e1 a dolar: {0}", ((Dolar)e1).GetCantidad());
+            Console.WriteLine("d1 a euro: {0}", ((Euro)d1).GetCantidad());
+            Console.WriteLine("e1 a pesos: {0}", ((Pesos)e1).GetCantidad());
 
             Console.ReadKey();
         }
