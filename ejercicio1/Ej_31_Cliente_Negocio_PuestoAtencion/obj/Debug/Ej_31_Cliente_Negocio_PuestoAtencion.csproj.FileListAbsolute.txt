@@ -1,0 +1,7 @@
+E:\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_31_Cliente_Negocio_PuestoAtencion\bin\Debug\Ej_31_Cliente_Negocio_PuestoAtencion.exe.config
+E:\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_31_Cliente_Negocio_PuestoAtencion\bin\Debug\Ej_31_Cliente_Negocio_PuestoAtencion.exe
+E:\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_31_Cliente_Negocio_PuestoAtencion\bin\Debug\Ej_31_Cliente_Negocio_PuestoAtencion.pdb
+E:\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_31_Cliente_Negocio_PuestoAtencion\obj\Debug\Ej_31_Cliente_Negocio_PuestoAtencion.csprojAssemblyReference.cache
+E:\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_31_Cliente_Negocio_PuestoAtencion\obj\Debug\Ej_31_Cliente_Negocio_PuestoAtencion.csproj.CoreCompileInputs.cache
+E:\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_31_Cliente_Negocio_PuestoAtencion\obj\Debug\Ej_31_Cliente_Negocio_PuestoAtencion.exe
+E:\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_31_Cliente_Negocio_PuestoAtencion\obj\Debug\Ej_31_Cliente_Negocio_PuestoAtencion.pdb
