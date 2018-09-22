@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedidasTemperatura", "Medid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numero", "Numero\Numero.csproj", "{DDB1B73F-B454-4E1C-B610-3668DA95EC8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_34_Automovil_Moto_Camion", "Ej_34_Automovil_Moto_Camion\Ej_34_Automovil_Moto_Camion.csproj", "{8C1CCB6D-39E1-48A4-B155-2516B116DAA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{DDB1B73F-B454-4E1C-B610-3668DA95EC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDB1B73F-B454-4E1C-B610-3668DA95EC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDB1B73F-B454-4E1C-B610-3668DA95EC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1CCB6D-39E1-48A4-B155-2516B116DAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1CCB6D-39E1-48A4-B155-2516B116DAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1CCB6D-39E1-48A4-B155-2516B116DAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1CCB6D-39E1-48A4-B155-2516B116DAA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,7 @@
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_34_Automovil_Moto_Camion\bin\Debug\Ej_34_Automovil_Moto_Camion.exe.config
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_34_Automovil_Moto_Camion\bin\Debug\Ej_34_Automovil_Moto_Camion.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_34_Automovil_Moto_Camion\bin\Debug\Ej_34_Automovil_Moto_Camion.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_34_Automovil_Moto_Camion\obj\Debug\Ej_34_Automovil_Moto_Camion.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_34_Automovil_Moto_Camion\obj\Debug\Ej_34_Automovil_Moto_Camion.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_34_Automovil_Moto_Camion\obj\Debug\Ej_34_Automovil_Moto_Camion.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_34_Automovil_Moto_Camion\obj\Debug\Ej_34_Automovil_Moto_Camion.pdb
