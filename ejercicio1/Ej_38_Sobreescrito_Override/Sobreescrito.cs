@@ -10,7 +10,7 @@ namespace Ej_38_Sobreescrito_Override
     {
         public override string ToString()
         {
-            return "\n¡Este es mi método ToString sobreescrito!\n"; 
+            return "¡Este es mi método ToString sobreescrito!"; 
         }
 
         public override bool Equals(object obj)

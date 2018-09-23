@@ -20,7 +20,7 @@ namespace Ej_38_Sobreescrito_Override
             Console.Write("Comparación Sobrecargas con String: ");
             Console.WriteLine(sobrecarga.Equals(objeto));
             Console.WriteLine("----------------------------------------------");
-
+            
             Console.WriteLine(sobrecarga.GetHashCode());
             Console.ReadKey();
         }

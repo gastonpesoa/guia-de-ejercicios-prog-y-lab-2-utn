@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_36_MotoCross_VehiculoCar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_38_Sobreescrito_Override", "Ej_38_Sobreescrito_Override\Ej_38_Sobreescrito_Override.csproj", "{2C47BA2D-591E-42AA-9C04-85792CC85BBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_39_Sobreescrito_Abstract", "Ej_39_Sobreescrito_Abstract\Ej_39_Sobreescrito_Abstract.csproj", "{50830EFF-BAEE-435F-AA37-E914A3526EBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{2C47BA2D-591E-42AA-9C04-85792CC85BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C47BA2D-591E-42AA-9C04-85792CC85BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C47BA2D-591E-42AA-9C04-85792CC85BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50830EFF-BAEE-435F-AA37-E914A3526EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50830EFF-BAEE-435F-AA37-E914A3526EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50830EFF-BAEE-435F-AA37-E914A3526EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50830EFF-BAEE-435F-AA37-E914A3526EBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

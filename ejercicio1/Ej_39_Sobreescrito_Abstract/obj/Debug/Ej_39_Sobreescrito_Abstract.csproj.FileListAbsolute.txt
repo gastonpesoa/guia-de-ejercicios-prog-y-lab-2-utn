@@ -1,0 +1,7 @@
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\bin\Debug\Ej_39_Sobreescrito_Abstract.exe.config
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\bin\Debug\Ej_39_Sobreescrito_Abstract.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\bin\Debug\Ej_39_Sobreescrito_Abstract.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\obj\Debug\Ej_39_Sobreescrito_Abstract.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\obj\Debug\Ej_39_Sobreescrito_Abstract.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\obj\Debug\Ej_39_Sobreescrito_Abstract.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\obj\Debug\Ej_39_Sobreescrito_Abstract.pdb
