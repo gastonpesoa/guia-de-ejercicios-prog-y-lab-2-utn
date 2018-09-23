@@ -1,0 +1,15 @@
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\bin\Debug\Ej_40_Form_Centralita.exe.config
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\bin\Debug\Ej_40_Form_Centralita.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\bin\Debug\Ej_40_Form_Centralita.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\bin\Debug\Centralita.dll
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\bin\Debug\Centralita.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\obj\Debug\Ej_40_Form_Centralita.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\obj\Debug\Ej_40_Form_Centralita.FrmMostrar.resources
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\obj\Debug\Ej_40_Form_Centralita.FrmLlamador.resources
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\obj\Debug\Ej_40_Form_Centralita.FrmMenu.resources
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\obj\Debug\Ej_40_Form_Centralita.Properties.Resources.resources
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\obj\Debug\Ej_40_Form_Centralita.csproj.GenerateResource.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\obj\Debug\Ej_40_Form_Centralita.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\obj\Debug\Ej_40_Form_Centralita.csproj.CopyComplete
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\obj\Debug\Ej_40_Form_Centralita.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Form_Centralita\obj\Debug\Ej_40_Form_Centralita.pdb

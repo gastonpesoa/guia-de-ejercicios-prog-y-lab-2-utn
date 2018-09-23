@@ -1,0 +1,6 @@
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Centralita\bin\Debug\Centralita.dll
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Centralita\bin\Debug\Centralita.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Centralita\obj\Debug\Centralita.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Centralita\obj\Debug\Centralita.dll
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Centralita\obj\Debug\Centralita.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Centralita\obj\Debug\Centralita.csprojAssemblyReference.cache
