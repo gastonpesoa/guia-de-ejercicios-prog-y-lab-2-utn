@@ -1,0 +1,7 @@
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_35_Persona_DirectorTecnico_Jugador\bin\Debug\Ej_35_Persona_DirectorTecnico_Jugador.exe.config
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_35_Persona_DirectorTecnico_Jugador\bin\Debug\Ej_35_Persona_DirectorTecnico_Jugador.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_35_Persona_DirectorTecnico_Jugador\bin\Debug\Ej_35_Persona_DirectorTecnico_Jugador.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_35_Persona_DirectorTecnico_Jugador\obj\Debug\Ej_35_Persona_DirectorTecnico_Jugador.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_35_Persona_DirectorTecnico_Jugador\obj\Debug\Ej_35_Persona_DirectorTecnico_Jugador.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_35_Persona_DirectorTecnico_Jugador\obj\Debug\Ej_35_Persona_DirectorTecnico_Jugador.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_35_Persona_DirectorTecnico_Jugador\obj\Debug\Ej_35_Persona_DirectorTecnico_Jugador.csprojAssemblyReference.cache

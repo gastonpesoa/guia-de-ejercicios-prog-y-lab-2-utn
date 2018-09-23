@@ -8,8 +8,6 @@ namespace Ej_31_Cliente_Negocio_PuestoAtencion
 {
     class Negocio
     {
-<<<<<<< HEAD
-=======
         //Campos
         private PuestoAtencion caja;
         private Queue<Cliente> clientes;
@@ -89,6 +87,5 @@ namespace Ej_31_Cliente_Negocio_PuestoAtencion
             }
             return returnAux;
         }
->>>>>>> 6d8acc7d93531a7ff47f2d13abfb2b1c1abf0f05
     }
 }

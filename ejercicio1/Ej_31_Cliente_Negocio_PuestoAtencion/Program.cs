@@ -10,8 +10,6 @@ namespace Ej_31_Cliente_Negocio_PuestoAtencion
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-=======
             Cliente c1 = new Cliente(1, "Juan");
             Cliente c2 = new Cliente(2, "Miguel");
             Cliente c3 = new Cliente(3, "Gaston");
@@ -39,7 +37,6 @@ namespace Ej_31_Cliente_Negocio_PuestoAtencion
                 Console.WriteLine("Clientes pendientes: {0}", n1.ClientesPendientes);
             } 
             Console.ReadKey();
->>>>>>> 6d8acc7d93531a7ff47f2d13abfb2b1c1abf0f05
         }
     }
 }

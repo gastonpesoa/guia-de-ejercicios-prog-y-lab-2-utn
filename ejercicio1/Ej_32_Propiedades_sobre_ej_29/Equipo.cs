@@ -26,8 +26,16 @@ namespace Ej_32_Propiedades_sobre_ej_29
 
         public static bool operator +(Equipo e, Jugador j)
         {
+            bool contiene = false;
             bool returnAux = false;
-            if (!e.jugadores.Contains(j) && !(e.jugadores.Count >= e.cantidadDeJugadores))
+            foreach (Jugador jugador in e.jugadores)
+            {
+                if (j.Dni == jugador.Dni)
+                {
+                    contiene = true;
+                }
+            }
+            if (!contiene && !(e.jugadores.Count >= e.cantidadDeJugadores))
             {
                 e.jugadores.Add(j);
                 returnAux = true;
