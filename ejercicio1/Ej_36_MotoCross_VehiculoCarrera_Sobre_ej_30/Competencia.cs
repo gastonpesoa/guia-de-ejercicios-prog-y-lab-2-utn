@@ -53,6 +53,8 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
             }
         }
 
+        #region Indexador
+
         public VehiculoDeCarrera this[int i]
         {
             get
@@ -60,6 +62,8 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
                 return this.competidores[i];
             }
         }
+
+        #endregion
 
         public TipoCompetencia Tipo
         {
@@ -72,6 +76,7 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
                 this.tipo = value;
             }
         }
+
         #endregion
 
         #region Constructores
@@ -91,21 +96,35 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
 
         #endregion
 
+        #region Sobrecargas
 
-
-        //Sobrecargas
         public static bool operator ==(Competencia c, VehiculoDeCarrera v)
         {
-            bool contiene = false;
+            bool returnAux = false;
 
             foreach (VehiculoDeCarrera vehiculoDeCarrera in c.competidores)
             {
                 if (vehiculoDeCarrera.Numero == v.Numero)
                 {
-                    contiene = true;
+                    return returnAux;
                 }
             }
-            return contiene;
+            switch (c.Tipo)
+            {
+                case TipoCompetencia.F1:
+                    if (v is AutoF1)
+                    {
+                        returnAux = true;
+                    }
+                    break;
+                case TipoCompetencia.MotoCross:
+                    if (v is MotoCross)
+                    {
+                        returnAux = true;
+                    }
+                    break;
+            }
+            return returnAux;
         }
 
         public static bool operator !=(Competencia c, VehiculoDeCarrera v)
@@ -118,43 +137,54 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
             Random random = new Random();
             bool returnAux = false;
 
-            if (c.competidores.Count < c.cantidadCompetidores && c != a)
+            if (c.competidores.Count < c.cantidadCompetidores && c == v)
             {
-                c.competidores.Add(a);
-                a.EnCompetencia = true;
-                a.VueltasRestantes = c.cantidadVueltas;
-                a.CantidadCombustible = (short)random.Next(15, 100);
+                c.competidores.Add(v);
+                v.EnCompetencia = true;
+                v.VueltasRestantes = c.cantidadVueltas;
+                v.CantidadCombustible = (short)random.Next(15, 100);
                 returnAux = true;
             }
             return returnAux;
         }
 
-        public static bool operator -(Competencia c, AutoF1 a)
+        public static bool operator -(Competencia c, VehiculoDeCarrera v)
         {
             bool returnAux = false;
 
-            if (c == a)
+            if (c != v)
             {
-                c.competidores.Remove(a);
-                a.EnCompetencia = false;
-                a.VueltasRestantes = 0;
-                a.CantidadCombustible = 0;
+                c.competidores.Remove(v);
+                v.EnCompetencia = false;
+                v.VueltasRestantes = 0;
+                v.CantidadCombustible = 0;
                 returnAux = true;
             }
             return returnAux;
         }
 
-        //Metodo
+        #endregion
+
+        #region Metodos
+
         public string MostrarDatos()
         {
             StringBuilder s = new StringBuilder();
-            s.AppendLine("Competidores: ");
-            foreach (AutoF1 auto in competidores)
+            s.AppendFormat("Competencia {0}\nCantidad de Vueltas: {1}\nCantidad de Competidores: {2}\nCompetidores:\n",this.Tipo, this.cantidadVueltas, this.cantidadCompetidores);
+            foreach (VehiculoDeCarrera vehiculoDeCarrera in this.competidores)
             {
-                s.AppendLine(auto.MostrarDatos());
+                if (vehiculoDeCarrera is AutoF1)
+                {
+                    s.AppendFormat("\n{0}\nCantidad de Combustible: {1}\n", ((AutoF1)vehiculoDeCarrera).MostrarDatos(),vehiculoDeCarrera.CantidadCombustible);
+                }
+                if (vehiculoDeCarrera is MotoCross)
+                {
+                    s.AppendFormat("\nMotoCross\n{0}\nCantidad de Combustible: {1}\n", ((MotoCross)vehiculoDeCarrera).MostrarDatos(), vehiculoDeCarrera.CantidadCombustible);
+                }
             }
-            s.AppendFormat("Cantidad de competidores: {0} - Cantidad de Vuletas: {1}", this.cantidadCompetidores, this.cantidadVueltas);
             return s.ToString();
         }
+
+        #endregion
     }
 }

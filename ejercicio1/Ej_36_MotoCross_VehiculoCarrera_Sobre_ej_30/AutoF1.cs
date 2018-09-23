@@ -62,7 +62,7 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
         public new string MostrarDatos()
         {
             StringBuilder s = new StringBuilder();
-            s.AppendLine("AutoF1\n" + base.MostrarDatos());
+            s.AppendLine("AutoF1 " + base.MostrarDatos());
             s.AppendFormat("Caballos de Fuerza: {0}", this.CaballosDeFuerza);
             return s.ToString();
         }
