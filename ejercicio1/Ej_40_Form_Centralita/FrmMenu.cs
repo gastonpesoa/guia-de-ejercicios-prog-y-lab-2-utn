@@ -15,24 +15,30 @@ namespace Ej_40_Form_Centralita
     {
         #region Atributo
         
-        protected Centralita centralita = new Centralita("Central Telefonica");
+        public Centralita centralita;
 
         #endregion
 
         public FrmMenu()
         {
             InitializeComponent();
+            Centralita centralita = new Centralita("UTN-Centralita");
         }
 
         private void FrmMostrar_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnGenerarLlamada_Click(object sender, EventArgs e)
         {
             FrmLlamador frmLlamador = new FrmLlamador(centralita);
             frmLlamador.ShowDialog();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

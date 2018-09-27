@@ -11,13 +11,19 @@ using Centralita_Biblioteca;
 
 namespace Ej_40_Form_Centralita
 {
-    public partial class FrmMostrar : FrmMenu
+    public partial class FrmMostrar : Form
     {
+        #region "Atributos"
+        Centralita centralita;
+        #endregion
+
+        #region "Constructor"
         public FrmMostrar(Centralita centralita)
         {
             InitializeComponent();
-            base.centralita = centralita;
+            this.centralita = centralita;
         }
+        #endregion
 
         private void Form1_Load(object sender, EventArgs e)
         {

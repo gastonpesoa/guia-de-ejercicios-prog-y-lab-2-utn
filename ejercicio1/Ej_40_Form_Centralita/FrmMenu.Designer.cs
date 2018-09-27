@@ -80,6 +80,7 @@
             this.btnSalir.TabIndex = 4;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // FrmMenu
             // 
@@ -92,6 +93,7 @@
             this.Controls.Add(this.btnFacturacionTotal);
             this.Controls.Add(this.btnGenerarLlamada);
             this.Name = "FrmMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Central Telefonica";
             this.Load += new System.EventHandler(this.FrmMostrar_Load);
             this.ResumeLayout(false);

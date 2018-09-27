@@ -28,21 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.richTxtBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
-            // Form1
+            // richTxtBox
+            // 
+            this.richTxtBox.Location = new System.Drawing.Point(13, 13);
+            this.richTxtBox.Name = "richTxtBox";
+            this.richTxtBox.Size = new System.Drawing.Size(298, 259);
+            this.richTxtBox.TabIndex = 0;
+            this.richTxtBox.Text = "";
+            // 
+            // FrmMostrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(576, 364);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(323, 284);
+            this.Controls.Add(this.richTxtBox);
+            this.Name = "FrmMostrar";
+            this.Text = "La Centralita";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.RichTextBox richTxtBox;
     }
 }
 

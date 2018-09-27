@@ -75,7 +75,6 @@ namespace Ej_40_Centralita_Herencia_Polimorfismo
         #endregion
 
         #region Enumerado
-
         public enum Franja
         {
             Franja_1,
