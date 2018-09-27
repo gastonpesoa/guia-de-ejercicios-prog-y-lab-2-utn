@@ -14,7 +14,7 @@ namespace Ej_40_Form_Centralita
     public partial class FrmLlamador : Form
     {
         #region "Atributos"
-        Centralita centralita;
+        private Centralita centralita;
         #endregion
 
         #region "Propiedades"
@@ -127,23 +127,33 @@ namespace Ej_40_Form_Centralita
             Random random = new Random();
             float duracion = random.Next(1, 50);
             float costo = random.Next((int)0.5, (int)5.6);
-            while (!int.TryParse(txtNumeroOrigen.Text, out int origen))
-            {
-                MessageBox.Show("Debe ingresar un valor numerico");
-            }
-            
+            int origen;
 
-            if (txtNumeroDestino.Text.First() == '#')
+            if (!int.TryParse(txtNumeroOrigen.Text, out origen))
             {
-                Local local = new Local(txtNumeroDestino.Text, duracion, origen.ToString(), costo);
-                this.centralita += local;
+                MessageBox.Show("El numero origen debe ser numerico!","Error numero de origen",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                txtNumeroOrigen.Text = "";
             }
             else
             {
-                Provincial provincial = new Provincial(origen.ToString(), franjas, duracion, txtNumeroDestino.Text);
-                this.centralita += provincial;
+                if (txtNumeroDestino.Text == "")
+                {
+                    MessageBox.Show("Debe ingresar un numero de destino!", "Error numero de destino", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    if (txtNumeroDestino.Text[0] == '#')
+                    {
+                        Local local = new Local(txtNumeroDestino.Text, duracion, origen.ToString(), costo);
+                        this.centralita += local;
+                    }
+                    else
+                    {
+                        Provincial provincial = new Provincial(origen.ToString(), franjas, duracion, txtNumeroDestino.Text);
+                        this.centralita += provincial;
+                    }
+                }
             }
-
         }
 
         private void ChangeCmbFrajaIfIsProvincial()

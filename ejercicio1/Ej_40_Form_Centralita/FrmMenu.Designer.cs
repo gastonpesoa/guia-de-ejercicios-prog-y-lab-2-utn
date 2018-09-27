@@ -53,6 +53,7 @@
             this.btnFacturacionTotal.TabIndex = 1;
             this.btnFacturacionTotal.Text = "Facturacion Total";
             this.btnFacturacionTotal.UseVisualStyleBackColor = true;
+            this.btnFacturacionTotal.Click += new System.EventHandler(this.btnFacturacionTotal_Click);
             // 
             // btnFacturacionLocal
             // 

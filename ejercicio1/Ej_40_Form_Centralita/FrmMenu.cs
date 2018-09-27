@@ -14,9 +14,7 @@ namespace Ej_40_Form_Centralita
     public partial class FrmMenu : Form
     {
         #region Atributo
-        
-        public Centralita centralita;
-
+        private Centralita centralita;
         #endregion
 
         public FrmMenu()
@@ -34,11 +32,18 @@ namespace Ej_40_Form_Centralita
         {
             FrmLlamador frmLlamador = new FrmLlamador(centralita);
             frmLlamador.ShowDialog();
+            this.centralita = frmLlamador.GetCentralita;
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnFacturacionTotal_Click(object sender, EventArgs e)
+        {
+            FrmMostrar frmMostrar = new FrmMostrar(this.centralita,Llamada.TipoLlamada.Todas);
+            frmMostrar.ShowDialog();
         }
     }
 }

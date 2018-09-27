@@ -14,20 +14,36 @@ namespace Ej_40_Form_Centralita
     public partial class FrmMostrar : Form
     {
         #region "Atributos"
-        Centralita centralita;
+        private Centralita centralita;
+        private Llamada.TipoLlamada tipoLlamada;
         #endregion
 
         #region "Constructor"
-        public FrmMostrar(Centralita centralita)
+        public FrmMostrar(Centralita centralita,Llamada.TipoLlamada tipoLlamada)
         {
             InitializeComponent();
             this.centralita = centralita;
+            this.TipoLlamada = tipoLlamada;
+        }
+        #endregion
+
+        #region "Propiedades"
+        public Llamada.TipoLlamada TipoLlamada
+        {
+            set
+            {
+                this.tipoLlamada = value;
+            }
         }
         #endregion
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            if (this.tipoLlamada == Llamada.TipoLlamada.Todas)
+            {
+                this.centralita.OrdenarLlamadas();
+                richTxtBox.Text = this.centralita.ToString();
+            }
         }
     }
 }
