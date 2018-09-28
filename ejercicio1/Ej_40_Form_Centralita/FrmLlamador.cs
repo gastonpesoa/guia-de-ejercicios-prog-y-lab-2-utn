@@ -134,24 +134,21 @@ namespace Ej_40_Form_Centralita
                 MessageBox.Show("El numero origen debe ser numerico!","Error numero de origen",MessageBoxButtons.OK,MessageBoxIcon.Error);
                 txtNumeroOrigen.Text = "";
             }
+            if (txtNumeroDestino.Text == "")
+            {
+                MessageBox.Show("Debe ingresar un numero de destino!", "Error numero de destino", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             else
             {
-                if (txtNumeroDestino.Text == "")
+                if (txtNumeroDestino.Text[0] == '#')
                 {
-                    MessageBox.Show("Debe ingresar un numero de destino!", "Error numero de destino", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Provincial provincial = new Provincial(origen.ToString(), franjas, duracion, txtNumeroDestino.Text);
+                    this.centralita += provincial;
                 }
                 else
                 {
-                    if (txtNumeroDestino.Text[0] == '#')
-                    {
-                        Local local = new Local(txtNumeroDestino.Text, duracion, origen.ToString(), costo);
-                        this.centralita += local;
-                    }
-                    else
-                    {
-                        Provincial provincial = new Provincial(origen.ToString(), franjas, duracion, txtNumeroDestino.Text);
-                        this.centralita += provincial;
-                    }
+                    Local local = new Local(txtNumeroDestino.Text, duracion, origen.ToString(), costo);
+                    this.centralita += local;
                 }
             }
         }
