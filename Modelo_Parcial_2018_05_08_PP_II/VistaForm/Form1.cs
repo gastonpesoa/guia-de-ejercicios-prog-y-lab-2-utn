@@ -29,7 +29,8 @@ namespace VistaForm
         private void btnCrearCurso_Click(object sender, EventArgs e)
         {
             Divisiones division;
-            Enum.TryParse<Divisiones>(cmbDivisionCurso.SelectedValue.ToString(), out division);
+            Enum.TryParse<Divisiones>(cmbDivisionCurso.SelectedValue.ToString(), out division);
+
             this.curso = new Curso((short)numAnioCurso.Value, division, new Profesor(txtNombreProfesor.Text, txtApellidoProfesor.Text, txtDniProfesor.Text));
         }
 

@@ -1,0 +1,10 @@
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\Modelo_Parcial_2017_10_05_PP\Test\bin\Debug\Test.exe.config
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\Modelo_Parcial_2017_10_05_PP\Test\bin\Debug\Test.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\Modelo_Parcial_2017_10_05_PP\Test\bin\Debug\Test.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\Modelo_Parcial_2017_10_05_PP\Test\bin\Debug\Entidades.dll
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\Modelo_Parcial_2017_10_05_PP\Test\bin\Debug\Entidades.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\Modelo_Parcial_2017_10_05_PP\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\Modelo_Parcial_2017_10_05_PP\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\Modelo_Parcial_2017_10_05_PP\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\Modelo_Parcial_2017_10_05_PP\Test\obj\Debug\Test.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\Modelo_Parcial_2017_10_05_PP\Test\obj\Debug\Test.pdb
