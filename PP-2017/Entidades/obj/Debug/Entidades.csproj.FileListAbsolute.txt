@@ -1,0 +1,12 @@
+C:\Users\Gaston-Pesoa\Downloads\PP-2017\Entidades\bin\Debug\Entidades.dll
+C:\Users\Gaston-Pesoa\Downloads\PP-2017\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Gaston-Pesoa\Downloads\PP-2017\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\Downloads\PP-2017\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\Downloads\PP-2017\Entidades\obj\Debug\Entidades.dll
+C:\Users\Gaston-Pesoa\Downloads\PP-2017\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\PP-2017\Entidades\bin\Debug\Entidades.dll
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\PP-2017\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\PP-2017\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\PP-2017\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\PP-2017\Entidades\obj\Debug\Entidades.dll
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\PP-2017\Entidades\obj\Debug\Entidades.pdb
