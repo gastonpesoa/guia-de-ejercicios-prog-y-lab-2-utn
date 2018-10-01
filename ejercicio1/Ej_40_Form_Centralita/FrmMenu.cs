@@ -21,11 +21,11 @@ namespace Ej_40_Form_Centralita
         {
             InitializeComponent();
             Centralita centralita = new Centralita("UTN-Centralita");
+            this.centralita = centralita;
         }
 
         private void FrmMostrar_Load(object sender, EventArgs e)
         {
-            
         }
 
         private void btnGenerarLlamada_Click(object sender, EventArgs e)
@@ -43,6 +43,18 @@ namespace Ej_40_Form_Centralita
         private void btnFacturacionTotal_Click(object sender, EventArgs e)
         {
             FrmMostrar frmMostrar = new FrmMostrar(this.centralita,Llamada.TipoLlamada.Todas);
+            frmMostrar.ShowDialog();
+        }
+
+        private void btnFacturacionLocal_Click(object sender, EventArgs e)
+        {
+            FrmMostrar frmMostrar = new FrmMostrar(this.centralita, Llamada.TipoLlamada.Local);
+            frmMostrar.ShowDialog();
+        }
+
+        private void btnFacturacionProvincial_Click(object sender, EventArgs e)
+        {
+            FrmMostrar frmMostrar = new FrmMostrar(this.centralita, Llamada.TipoLlamada.Provincial);
             frmMostrar.ShowDialog();
         }
     }

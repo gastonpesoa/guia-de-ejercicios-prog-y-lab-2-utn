@@ -25,6 +25,7 @@ namespace Ej_28_Diccionarios
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             Dictionary<string, int> miDiccionario = new Dictionary<string, int>();
+            List<string> miDiccionarioList = new List<string>();
 
             string[] palabras = richTxtBox.Text.Split(new char[] { ' ','.',',',';',':','!','?','(',')' });
 
@@ -39,6 +40,8 @@ namespace Ej_28_Diccionarios
                     miDiccionario[palabras[i]]++;
                 }
             }
+
+            miDiccionarioList = miDiccionario.ToList<string>;
         }
     }
 }
