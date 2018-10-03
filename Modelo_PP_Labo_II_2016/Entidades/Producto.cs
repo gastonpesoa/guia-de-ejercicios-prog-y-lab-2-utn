@@ -67,7 +67,7 @@ namespace Entidades
         private string MostrarProducto(Producto p)
         {
             StringBuilder s = new StringBuilder();
-            s.AppendFormat("{0,-15} {1, -15} {2, -15}", this.CodigoBarra, this.Marca, this.Precio);
+            s.AppendFormat("CODIGO DE BARRAS: {0}\nMARCA: {1}\nPRECIO: {2}", this.CodigoBarra, this.Marca, this.Precio);
             return s.ToString();
         }
 
@@ -78,10 +78,10 @@ namespace Entidades
         #endregion
 
         #region "Sobrecargas"
-        public override bool Equals(object obj)
-        {
-            return obj is Producto;
-        }
+        //public override bool Equals(object obj)
+        //{
+        //    return obj is Producto;
+        //}
         #endregion
 
         #region "Operadores"

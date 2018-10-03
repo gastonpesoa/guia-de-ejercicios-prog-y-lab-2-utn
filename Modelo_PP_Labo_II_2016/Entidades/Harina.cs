@@ -47,7 +47,7 @@ namespace Entidades
         private string MostrarHarina()
         {
             StringBuilder s = new StringBuilder();
-            s.AppendFormat("{0,-15} {1} Tipo: {2}", "Harina", (string)this, this.tipo);
+            s.AppendFormat("HARINA\n{0}\nTIPO: {1}\n", (string)this, this.tipo);
             return s.ToString();
         }
 

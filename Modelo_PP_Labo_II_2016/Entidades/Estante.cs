@@ -42,15 +42,11 @@ namespace Entidades
         public static string MostrarEstante(Estante e)
         {
             StringBuilder s = new StringBuilder();
-            s.AppendLine("************************************ ESTANTE *********************************************");
-            s.AppendFormat("Capacidad: {0}\n", e.capacidad);
-            s.AppendLine("******************************* DETALLEDE PRODUCTOS **************************************");
-            s.AppendFormat("{0,-15} {1,-15} {2,-15} {3,-15}\n", "Producto", "Codigo de Barra", "Marca", "Precio");
+            s.AppendFormat("CAPACIDAD: {0}\n", e.capacidad);
             foreach (Producto producto in e.GetProductos())
             {
                 s.AppendLine(producto.ToString());
             }
-            s.AppendLine("*******************************************************************************************");    
             return s.ToString();
         }
         #endregion
@@ -93,7 +89,7 @@ namespace Entidades
         {
             if (e == prod)
             {
-                e.productos.Remove(prod);
+                e.GetProductos().Remove(prod);
             }
             return e;
         }
@@ -103,7 +99,7 @@ namespace Entidades
             switch (tipo)
             {
                 case Producto.ETipoProducto.Galletita:
-                    foreach (Producto producto in e.productos)
+                    foreach (Producto producto in e.GetProductos())
                     {
                         if (producto is Galletita)
                         {

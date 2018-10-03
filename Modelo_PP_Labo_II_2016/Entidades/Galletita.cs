@@ -40,7 +40,7 @@ namespace Entidades
         private string MostrarGalletita(Galletita g)
         {
             StringBuilder s = new StringBuilder();
-            s.AppendFormat("{0,-15} {0} Peso: {1}","Galletita", (string)this, this.peso);
+            s.AppendFormat("GALLETITA\n{0}\nPESO: {1}\n", (string)this, this.peso);
             return s.ToString();
         }
 

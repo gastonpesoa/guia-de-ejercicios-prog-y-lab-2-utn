@@ -43,7 +43,7 @@ namespace Entidades
         private string MostrarGaseosa()
         {
             StringBuilder s = new StringBuilder();
-            s.AppendFormat("{0,-15} {1} Listros: {2}","Gaseosa", (string)this, this.litros);
+            s.AppendFormat("GASEOSA\n{0}\nLITROS: {1}\n", (string)this, this.litros);
             return s.ToString();
         }
 
