@@ -25,7 +25,8 @@ namespace Ej_28_Diccionarios
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             Dictionary<string, int> miDiccionario = new Dictionary<string, int>();
-            List<string> miDiccionarioList = new List<string>();
+            List<KeyValuePair<string, int>> dicList = new List<KeyValuePair<string, int>>();
+            StringBuilder s = new StringBuilder();
 
             string[] palabras = richTxtBox.Text.Split(new char[] { ' ','.',',',';',':','!','?','(',')' });
 
@@ -41,7 +42,15 @@ namespace Ej_28_Diccionarios
                 }
             }
 
-            miDiccionarioList = miDiccionario.ToList<string>;
+            dicList = miDiccionario.ToList();
+            dicList.Sort((x, y) => Ej_28_Diccionarios.Form1.OrdenarDescendente(x.Value,y.Value));
+
+            s.AppendLine("Palabras con mas apariciones: ");
+            for(int i = 0; i < 3; i++)
+            {
+                s.AppendFormat("* {0} - apariciones: {1}\n", dicList[i].Key, dicList[i].Value);
+            }
+            MessageBox.Show(s.ToString(), "TOP 3",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
     }
 }
