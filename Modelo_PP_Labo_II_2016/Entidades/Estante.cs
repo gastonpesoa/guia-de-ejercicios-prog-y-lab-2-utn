@@ -99,46 +99,46 @@ namespace Entidades
             switch (tipo)
             {
                 case Producto.ETipoProducto.Galletita:
-                    foreach (Producto producto in e.GetProductos())
+                    for (int i = 0; i < e.GetProductos().Count; i++)
                     {
-                        if (producto is Galletita)
+                        if (e.productos[i] is Galletita)
                         {
-                            e -= producto;
+                            e -= e.productos[i];
                         }
                     }
                     break;
                 case Producto.ETipoProducto.Gaseosa:
-                    foreach (Producto producto in e.GetProductos())
+                    for (int i = 0; i < e.GetProductos().Count; i++)
                     {
-                        if (producto is Gaseosa)
+                        if (e.productos[i] is Gaseosa)
                         {
-                            e -= producto;
+                            e -= e.productos[i];
                         }
                     }
                     break;
                 case Producto.ETipoProducto.Jugo:
-                    foreach(Producto producto in e.GetProductos())
+                    for (int i = 0; i < e.GetProductos().Count; i++)
                     {
-                        if (producto is Jugo)
+                        if (e.productos[i] is Jugo)
                         {
-                            e -= producto;
+                            e -= e.productos[i];
                         }
                     }
                     break;
                 case Producto.ETipoProducto.Harina:
-                    foreach(Producto producto in e.GetProductos())
+                    for (int i = 0; i < e.GetProductos().Count; i++)
                     {
-                        if (producto is Harina)
+                        if (e.productos[i] is Harina)
                         {
-                            e -= producto;
+                            e -= e.productos[i];
                         }
                     }
                     break;
                 case Producto.ETipoProducto.Todos:
-                    foreach(Producto producto in e.GetProductos())
+                    for (int i = 0; i < e.GetProductos().Count; i++)
                     {
-                        e -= producto;
-                    }       
+                        e -= e.productos[i];
+                    }
                     break;
                 default:
                     break;

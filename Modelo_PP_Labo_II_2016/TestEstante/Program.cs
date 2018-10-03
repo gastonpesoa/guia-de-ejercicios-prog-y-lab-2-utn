@@ -7,7 +7,7 @@ using Entidades;
 
 namespace TestEstante
 {
-    class Program
+    public class Program
     {
         private static int OrdenarProductos(Producto prodUno, Producto prodDos)
         {
