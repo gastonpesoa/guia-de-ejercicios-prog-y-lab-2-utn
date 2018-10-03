@@ -47,7 +47,7 @@ namespace Entidades
         private string MostrarJugo()
         {
             StringBuilder s = new StringBuilder();
-            s.AppendFormat("JUGO\n{0}\nSabor{1}\n", (string)this, this.sabor);
+            s.AppendFormat("JUGO\n{0}\nSABOR: {1}\n", (string)this, this.sabor);
             return s.ToString();
         }
 

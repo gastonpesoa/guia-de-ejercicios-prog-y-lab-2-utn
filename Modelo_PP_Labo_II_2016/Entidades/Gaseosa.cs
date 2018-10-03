@@ -29,8 +29,8 @@ namespace Entidades
             Gaseosa.DeConsumo = true;
         }
 
-        public Gaseosa(int cosigoBarra, float precio, EMarcaProducto marca, float litros)
-            :base(cosigoBarra, marca, precio)
+        public Gaseosa(int codigoBarra, float precio, EMarcaProducto marca, float litros)
+            :base(codigoBarra, marca, precio)
         {
             this.litros = litros;
         }

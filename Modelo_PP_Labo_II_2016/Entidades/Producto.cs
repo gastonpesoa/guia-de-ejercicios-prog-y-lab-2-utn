@@ -107,7 +107,7 @@ namespace Entidades
 
         public static bool operator ==(Producto prodUno, Producto prodDos)
         {
-            return (prodUno.Marca == prodDos.Marca && prodUno.codigoBarra == prodDos.codigoBarra);
+            return (prodUno.Marca == prodDos.Marca && prodUno.codigoBarra == prodDos.codigoBarra && prodUno.GetType() == prodDos.GetType());
         }
 
         public static bool operator !=(Producto prodUno, Producto prodDos)

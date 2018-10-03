@@ -138,6 +138,7 @@ namespace Entidades
                     for (int i = 0; i < e.GetProductos().Count; i++)
                     {
                         e -= e.productos[i];
+                        i--;
                     }
                     break;
                 default:
