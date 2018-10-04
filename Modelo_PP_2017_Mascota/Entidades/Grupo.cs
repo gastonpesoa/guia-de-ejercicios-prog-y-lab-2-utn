@@ -61,10 +61,21 @@ namespace Entidades
             bool returnAux = false;
             foreach (Mascota mascota in e.manada)
             {
-                if (mascota == j)
+                if (mascota is Perro && j is Perro)
                 {
-                    returnAux = true;
+                    if (((Perro)mascota).Equals(j))
+                    {
+                        returnAux = true;
+                    }
                 }
+                if (mascota is Gato && j is Gato)
+                {
+                    if (((Gato)mascota).Equals(j))
+                    {
+                        returnAux = true;
+                    }
+                }
+                
             }
             return returnAux;
         }

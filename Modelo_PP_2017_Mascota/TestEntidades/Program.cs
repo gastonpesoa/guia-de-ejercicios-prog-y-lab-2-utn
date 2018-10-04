@@ -20,12 +20,14 @@ namespace TestEntidades
             Gato g3 = new Gato("Fer", "Siames");
 
             g += p1;
+            g += p1;
             g += p2;
             g += p3;
             g += g1;
             g += g2;
             g += g3;
 
+            Console.WriteLine((string)g);
             Console.ReadKey();
         }
     }

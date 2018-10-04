@@ -22,26 +22,20 @@ namespace Entidades
             }
             set
             {
-                if (value == 0)
-                {
-                    this.edad = 0;
-                }
+                this.edad = value;
             }
         }
 
         public bool EsAlfa
         {
+
             get
             {
                 return this.esAlfa;
             }
             set
             {
-                if (value)
-                {
-                    this.esAlfa = false;
-                }
-                
+                this.esAlfa = value;
             }
         }
         #endregion
@@ -79,9 +73,9 @@ namespace Entidades
         protected override string Ficha()
         {
             StringBuilder s = new StringBuilder();
-            if (!this.EsAlfa)
+            if (this.EsAlfa)
             {
-                s.AppendFormat("{0}, alfa de la manada, edad {2}\n", base.DatosCompletos(), this.edad);
+                s.AppendFormat("{0}, alfa de la manada, edad {1}\n", base.DatosCompletos(), this.edad);
             }
             else
             {
