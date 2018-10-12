@@ -87,6 +87,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centralita", "Centralita\Ce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_40_Form_Centralita", "Ej_40_Form_Centralita\Ej_40_Form_Centralita.csproj", "{57F76E15-E71A-48AF-80DA-355279160116}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_42_Exception", "Ej_42_Exception\Ej_42_Exception.csproj", "{38C89D6B-75F7-4554-B469-10FBD0B2DCE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +263,10 @@ Global
 		{57F76E15-E71A-48AF-80DA-355279160116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57F76E15-E71A-48AF-80DA-355279160116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57F76E15-E71A-48AF-80DA-355279160116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C89D6B-75F7-4554-B469-10FBD0B2DCE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C89D6B-75F7-4554-B469-10FBD0B2DCE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C89D6B-75F7-4554-B469-10FBD0B2DCE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C89D6B-75F7-4554-B469-10FBD0B2DCE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

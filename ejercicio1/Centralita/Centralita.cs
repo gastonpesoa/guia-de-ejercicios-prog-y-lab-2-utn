@@ -93,6 +93,11 @@ namespace Centralita_Biblioteca
             {
                 c.AgregarLlamada(nuevaLlamada);
             }
+            else
+            {
+                CentralitaException cException = new CentralitaException("La llamada ya se encuentra registrada!", "Centralita", "Operador suma");
+                throw cException;
+            }
             return c;
         }
         #endregion

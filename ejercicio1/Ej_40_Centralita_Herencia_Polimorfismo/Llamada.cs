@@ -17,7 +17,6 @@ namespace Ej_40_Centralita_Herencia_Polimorfismo
         #endregion
 
         #region Propiedades
-
         //Propiedad abstracta
         public abstract float CostoLlamada { get; }
 
