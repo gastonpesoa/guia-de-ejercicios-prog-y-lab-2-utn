@@ -146,12 +146,31 @@ namespace Ej_40_Form_Centralita
                     if (txtNumeroDestino.Text[0] == '#')
                     {
                         Provincial provincial = new Provincial(origen.ToString(), franjas, duracion, txtNumeroDestino.Text);
-                        this.centralita += provincial;
+                        try
+                        {
+                            this.centralita += provincial;
+                        }
+                        catch (CentralitaException cEx)
+                        {
+                            StringBuilder s = new StringBuilder();
+                            s.AppendFormat("\n\n{0}\nExcepcion lanzada dentro del metodo -> {1}\nDe la clase -> {2}\n\n", cEx.Message, cEx.NombreMetodo, cEx.NombreClase);
+                            MessageBox.Show(s.ToString(), "Error: Llamada Duplicada", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                        
                     }
                     else
                     {
                         Local local = new Local(txtNumeroDestino.Text, duracion, origen.ToString(), costo);
-                        this.centralita += local;
+                        try
+                        {
+                            this.centralita += local;
+                        }
+                        catch (CentralitaException cEx)
+                        {
+                            StringBuilder s = new StringBuilder();
+                            s.AppendFormat("\n\n{0}\nExcepcion lanzada dentro del metodo -> {1}\nDe la clase -> {2}\n\n", cEx.Message, cEx.NombreMetodo, cEx.NombreClase);
+                            MessageBox.Show(s.ToString(), "Error: Llamada Duplicada", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
                     }
                 }
             }

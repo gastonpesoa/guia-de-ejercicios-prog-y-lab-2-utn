@@ -28,6 +28,21 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
                 Console.WriteLine("Se agrego a la competencia F1 a:\n" + a1.MostrarDatos());
             }
             Console.WriteLine("---------------");
+
+            try
+            {
+                bool contiene = competenciaF1 + a1;
+            }
+            catch (CompetenciaNoDisponibleException ex)
+            {
+                Console.WriteLine(ex.Message);
+                Exception exAux = ex.InnerException;
+                while (exAux != null)
+                {
+                    Console.WriteLine(exAux.Message);
+                    exAux = exAux.InnerException;
+                }
+            }
             if (competenciaF1 + a2)
             {
                 Console.WriteLine("Se agrego a la competencia F1 a:\n" + a2.MostrarDatos());

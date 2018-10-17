@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace Centralita_Biblioteca
 {
@@ -95,7 +96,12 @@ namespace Centralita_Biblioteca
             }
             else
             {
-                CentralitaException cException = new CentralitaException("La llamada ya se encuentra registrada!", "Centralita", "Operador suma");
+                StringBuilder s = new StringBuilder();
+                s.AppendFormat("La llamada {0}\nYa se encuentra registrada!", nuevaLlamada);
+                var st = new StackTrace();
+                var sf = st.GetFrame(0);
+                var currentMethodName = sf.GetMethod();
+                CentralitaException cException = new CentralitaException(s.ToString(), c.GetType().ToString(), currentMethodName.ToString());
                 throw cException;
             }
             return c;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
 {
@@ -106,7 +107,13 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
             {
                 if (vehiculoDeCarrera.Numero == v.Numero)
                 {
-                    return returnAux;
+                    var st = new StackTrace();
+                    var sf = st.GetFrame(0);
+                    var currentMethodName = sf.GetMethod();
+                    CompetenciaNoDisponibleException competenciaEx = new CompetenciaNoDisponibleException(
+                        "El vehículo no corresponde a la competencia", c.GetType().ToString(), currentMethodName.ToString());
+                    throw competenciaEx;
+                    //return returnAux;
                 }
             }
             switch (c.Tipo)
@@ -135,9 +142,21 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
         public static bool operator +(Competencia c, VehiculoDeCarrera v)
         {
             Random random = new Random();
-            bool returnAux = false;
-
-            if (c.competidores.Count < c.cantidadCompetidores && c == v)
+            bool returnAux = false, contiene = false;
+            try
+            {
+                contiene = c == v;
+            }
+            catch (CompetenciaNoDisponibleException compEx)
+            {
+                var st = new StackTrace();
+                var sf = st.GetFrame(0);
+                var currentMethodName = sf.GetMethod();
+                CompetenciaNoDisponibleException newEx = new CompetenciaNoDisponibleException(
+                    "Competencia incorrecta", c.GetType().ToString(), currentMethodName.ToString(), compEx);
+                throw newEx;
+            }
+            if (c.competidores.Count < c.cantidadCompetidores)
             {
                 c.competidores.Add(v);
                 v.EnCompetencia = true;

@@ -5,6 +5,6 @@ C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.csproj.CoreCompileInputs.cache
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.exe
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.pdb
-C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.FrmLlamador.resources
-C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.FrmMostrar.resources
-C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.csproj.GenerateResource.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\bin\Debug\Centralita.dll
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\bin\Debug\Centralita.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.csproj.CopyComplete

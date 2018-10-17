@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Centralita_Biblioteca;
 
 namespace Ej_40_Centralita_Herencia_Polimorfismo
 {
@@ -23,8 +24,15 @@ namespace Ej_40_Centralita_Herencia_Polimorfismo
             c = c + l1;
             c = c + l2;
             c = c + l3;
-            c = c + l4;
-
+            try
+            {
+                c = c + l4;
+            }
+            catch (CentralitaException cEx)
+            {
+                Console.WriteLine("\n\n{0}\nExcepcion lanzada dentro del metodo -> {1}\nDe la clase -> {2}\n\n", cEx.Message, cEx.NombreMetodo, cEx.NombreClase);
+            }
+            
             c.OrdenarLlamadas();
             Console.WriteLine(c.ToString());
             Console.ReadKey();
