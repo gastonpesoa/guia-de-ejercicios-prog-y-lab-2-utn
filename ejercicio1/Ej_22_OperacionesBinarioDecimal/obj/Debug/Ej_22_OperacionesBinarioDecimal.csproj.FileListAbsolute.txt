@@ -8,3 +8,13 @@ C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\obj\Debug\Ej_22_OperacionesBinarioDecimal.csproj.CopyComplete
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\obj\Debug\Ej_22_OperacionesBinarioDecimal.exe
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\obj\Debug\Ej_22_OperacionesBinarioDecimal.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\bin\Debug\Ej_22_OperacionesBinarioDecimal.exe.config
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\bin\Debug\Ej_22_OperacionesBinarioDecimal.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\bin\Debug\Ej_22_OperacionesBinarioDecimal.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\bin\Debug\Numero.dll
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\bin\Debug\Numero.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\obj\Debug\Ej_22_OperacionesBinarioDecimal.csprojAssemblyReference.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\obj\Debug\Ej_22_OperacionesBinarioDecimal.csproj.CoreCompileInputs.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\obj\Debug\Ej_22_OperacionesBinarioDecimal.csproj.CopyComplete
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\obj\Debug\Ej_22_OperacionesBinarioDecimal.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_22_OperacionesBinarioDecimal\obj\Debug\Ej_22_OperacionesBinarioDecimal.pdb

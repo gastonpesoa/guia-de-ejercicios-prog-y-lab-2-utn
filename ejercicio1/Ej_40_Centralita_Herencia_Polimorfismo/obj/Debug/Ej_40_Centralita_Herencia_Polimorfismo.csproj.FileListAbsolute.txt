@@ -8,3 +8,13 @@ C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\bin\Debug\Centralita.dll
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\bin\Debug\Centralita.pdb
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.csproj.CopyComplete
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\bin\Debug\Ej_40_Centralita_Herencia_Polimorfismo.exe.config
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\bin\Debug\Ej_40_Centralita_Herencia_Polimorfismo.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\bin\Debug\Ej_40_Centralita_Herencia_Polimorfismo.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\bin\Debug\Centralita.dll
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\bin\Debug\Centralita.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.csprojAssemblyReference.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.csproj.CoreCompileInputs.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.csproj.CopyComplete
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_40_Centralita_Herencia_Polimorfismo\obj\Debug\Ej_40_Centralita_Herencia_Polimorfismo.pdb
