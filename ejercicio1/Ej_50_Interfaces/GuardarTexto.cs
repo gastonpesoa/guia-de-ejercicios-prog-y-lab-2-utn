@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ej_50_Interfaces
 {
-    public class GuardarTexto<T, V>
+    public class GuardarTexto<T, V> : IGuardar<T,V>
     {
         #region "Metodos"
         public bool Guardar(T obj)

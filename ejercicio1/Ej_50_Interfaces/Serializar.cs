@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ej_50_Interfaces
 {
-    public class Serializar<S, V>
+    public class Serializar<S, V> : IGuardar<S, V>
     {
         #region "Metodos"
         public bool Guardar(S obj)

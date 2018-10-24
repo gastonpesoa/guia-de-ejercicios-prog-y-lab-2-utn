@@ -43,6 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Boligrafo.cs" />
+    <Compile Include="EscrituraWrapper.cs" />
+    <Compile Include="IAcciones.cs" />
+    <Compile Include="Lapiz.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
