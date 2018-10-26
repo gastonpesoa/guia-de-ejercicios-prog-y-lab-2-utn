@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_50_Interfaces", "Ej_50_I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_52_Boligrafo_Lapiz_Interface", "Ej_52_Boligrafo_Lapiz_Interface\Ej_52_Boligrafo_Lapiz_Interface.csproj", "{1674EDCE-7B32-4E51-8D1B-30B50E7786C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_57_Persona_Serializacion", "Ej_57_Persona_Serializacion\Ej_57_Persona_Serializacion.csproj", "{6C6740BD-A210-4453-BB68-EF6B480DF624}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +311,10 @@ Global
 		{1674EDCE-7B32-4E51-8D1B-30B50E7786C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1674EDCE-7B32-4E51-8D1B-30B50E7786C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1674EDCE-7B32-4E51-8D1B-30B50E7786C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6740BD-A210-4453-BB68-EF6B480DF624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6740BD-A210-4453-BB68-EF6B480DF624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6740BD-A210-4453-BB68-EF6B480DF624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6740BD-A210-4453-BB68-EF6B480DF624}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
