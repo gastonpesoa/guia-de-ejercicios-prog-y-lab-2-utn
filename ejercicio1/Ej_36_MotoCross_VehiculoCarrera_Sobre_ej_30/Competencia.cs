@@ -101,35 +101,42 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
 
         public static bool operator ==(Competencia c, VehiculoDeCarrera v)
         {
-            bool returnAux = false;
+            bool returnAux = false, contiene = false;
 
             foreach (VehiculoDeCarrera vehiculoDeCarrera in c.competidores)
             {
                 if (vehiculoDeCarrera.Numero == v.Numero)
                 {
-                    var st = new StackTrace();
-                    var sf = st.GetFrame(0);
-                    var currentMethodName = sf.GetMethod();
-                    CompetenciaNoDisponibleException competenciaEx = new CompetenciaNoDisponibleException(
-                        "El vehículo no corresponde a la competencia", c.GetType().ToString(), currentMethodName.ToString());
-                    throw competenciaEx;
-                    //return returnAux;
+                    contiene = true;
+                    break;
                 }
             }
-            switch (c.Tipo)
+            if (!contiene)
             {
-                case TipoCompetencia.F1:
-                    if (v is AutoF1)
-                    {
-                        returnAux = true;
-                    }
-                    break;
-                case TipoCompetencia.MotoCross:
-                    if (v is MotoCross)
-                    {
-                        returnAux = true;
-                    }
-                    break;
+                switch (c.Tipo)
+                {
+                    case TipoCompetencia.F1:
+                        if (v is AutoF1)
+                        {
+                            returnAux = true;
+                        }
+                        break;
+                    case TipoCompetencia.MotoCross:
+                        if (v is MotoCross)
+                        {
+                            returnAux = true;
+                        }
+                        break;
+                }
+            }
+            if(contiene && !returnAux)
+            {
+                var st = new StackTrace();
+                var sf = st.GetFrame(0);
+                var currentMethodName = sf.GetMethod();
+                CompetenciaNoDisponibleException competenciaEx = new CompetenciaNoDisponibleException(
+                    "El vehículo no corresponde a la competencia", c.GetType().ToString(), currentMethodName.ToString());
+                throw competenciaEx;
             }
             return returnAux;
         }

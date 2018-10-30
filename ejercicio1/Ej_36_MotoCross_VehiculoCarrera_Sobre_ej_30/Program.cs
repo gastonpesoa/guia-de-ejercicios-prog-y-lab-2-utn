@@ -53,35 +53,35 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
                 Console.WriteLine("Se agrego a la competencia F1 a:\n" + a3.MostrarDatos());
             }
             Console.WriteLine("---------------");
-            if (!(competenciaF1 + a4))
-            {
-                Console.WriteLine("No se agrego a la competencia F1 a:\n" + a4.MostrarDatos() + "\nCantidad de competidores sobrepasada");
-            }
+            //if (!(competenciaF1 + a4))
+            //{
+            //    Console.WriteLine("No se agrego a la competencia F1 a:\n" + a4.MostrarDatos() + "\nCantidad de competidores sobrepasada");
+            //}
 
             Console.WriteLine("=========================");
             Console.WriteLine(competenciaF1.MostrarDatos());
             Console.WriteLine("=========================");
 
-            if (competenciaF1 - a3)
-            {
-                Console.WriteLine("Se retira de la competencia:\n" + a3.MostrarDatos());
-            }
-            Console.WriteLine("---------------");
+            //if (competenciaF1 - a3)
+            //{
+            //    Console.WriteLine("Se retira de la competencia:\n" + a3.MostrarDatos());
+            //}
+            //Console.WriteLine("---------------");
 
-            if (competenciaF1 + a4)
-            {
-                Console.WriteLine("Se agrego a la competencia F1 a:\n" + a4.MostrarDatos());
-            }
-            
+            //if (competenciaF1 + a4)
+            //{
+            //    Console.WriteLine("Se agrego a la competencia F1 a:\n" + a4.MostrarDatos());
+            //}
+
             Console.WriteLine("=========================");
             Console.WriteLine(competenciaF1.MostrarDatos());
             Console.WriteLine("=========================");
 
-            if (!(competenciaF1 + m1))
-            {
-                Console.WriteLine("No se agrego a la competencia F1 a:\n" + m1.MostrarDatos() + "\nTipo de vehiculo incorrecto");
-            }
-            Console.WriteLine("********************************");
+            //if (!(competenciaF1 + m1))
+            //{
+            //    Console.WriteLine("No se agrego a la competencia F1 a:\n" + m1.MostrarDatos() + "\nTipo de vehiculo incorrecto");
+            //}
+            //Console.WriteLine("********************************");
             if (competenciaMotoCross + m1)
             {
                 Console.WriteLine("Se agrego a la competencia MotoCross a:\n" + m1.MostrarDatos());
@@ -92,20 +92,20 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
                 Console.WriteLine("Se agrego a la competencia MotoCross a:\n" + m2.MostrarDatos());
             }
             Console.WriteLine("---------------");
-            if (!(competenciaMotoCross + m3))
-            {
-                Console.WriteLine("No se agrego a la competencia MotoCross a:\n" + m3.MostrarDatos() + "\nCantidad de competidores sobrepasada");
-            }
+            //if (!(competenciaMotoCross + m3))
+            //{
+            //    Console.WriteLine("No se agrego a la competencia MotoCross a:\n" + m3.MostrarDatos() + "\nCantidad de competidores sobrepasada");
+            //}
 
             Console.WriteLine("=========================");
             Console.WriteLine(competenciaMotoCross.MostrarDatos());
             Console.WriteLine("=========================");
 
-            if (competenciaMotoCross - m2)
-            {
-                Console.WriteLine("Se retira de la competencia:\n" + m2.MostrarDatos());
-            }
-            Console.WriteLine("---------------");
+            //if (competenciaMotoCross - m2)
+            //{
+            //    Console.WriteLine("Se retira de la competencia:\n" + m2.MostrarDatos());
+            //}
+            //Console.WriteLine("---------------");
 
             if (competenciaMotoCross + m3)
             {
@@ -116,10 +116,10 @@ namespace Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30
             Console.WriteLine(competenciaMotoCross.MostrarDatos());
             Console.WriteLine("=========================");
 
-            if (!(competenciaMotoCross + a3))
-            {
-                Console.WriteLine("No se agrego a la competencia MotoCross a:\n" + a3.MostrarDatos() + "\nTipo de vehiculo incorrecto");
-            }
+            //if (!(competenciaMotoCross + a3))
+            //{
+            //    Console.WriteLine("No se agrego a la competencia MotoCross a:\n" + a3.MostrarDatos() + "\nTipo de vehiculo incorrecto");
+            //}
             Console.WriteLine("********************************");
             Console.ReadKey();
         }

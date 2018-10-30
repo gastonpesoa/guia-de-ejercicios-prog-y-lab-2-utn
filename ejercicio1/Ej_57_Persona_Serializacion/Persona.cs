@@ -36,10 +36,10 @@ namespace Ej_57_Persona_Serializacion
         #endregion
 
         #region "Metodos"
-        static bool Guardar(Persona p)
-        {
-            tr
-        }
+        //static bool Guardar(Persona p)
+        //{
+        //    tr
+        //}
         #endregion
     }
 }

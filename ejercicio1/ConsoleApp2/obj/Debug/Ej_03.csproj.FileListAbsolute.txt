@@ -5,3 +5,10 @@ D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp2\obj\D
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp2\obj\Debug\Ej_03.csproj.CoreCompileInputs.cache
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp2\obj\Debug\Ej_03.csprojAssemblyReference.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp2\obj\Debug\Ej_03.csproj.CoreCompileInputs.cache
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

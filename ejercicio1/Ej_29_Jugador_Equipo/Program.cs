@@ -10,11 +10,9 @@ namespace Ej_29_Jugador_Equipo
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-            bool entro;
 
-=======
->>>>>>> 6d8acc7d93531a7ff47f2d13abfb2b1c1abf0f05
+            //bool entro;
+
             Equipo e1 = new Equipo(11, "La Sub 21");
 
             Jugador j1 = new Jugador(30456987, "Juan Cholo", 54, 154);
