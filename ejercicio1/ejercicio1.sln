@@ -109,6 +109,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_56_Form_Archivo_De_Texto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_60_BaseDeDatos", "Ej_60_BaseDeDatos\Ej_60_BaseDeDatos.csproj", "{C1FC5E59-3CD2-47E2-80C6-87B71329B5E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_60_v.02_Base_de_datos", "Ej_60_v.02_Base_de_datos\Ej_60_v.02_Base_de_datos.csproj", "{6D8819B3-9457-4ADD-922E-DBE165430AD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -327,6 +329,10 @@ Global
 		{C1FC5E59-3CD2-47E2-80C6-87B71329B5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1FC5E59-3CD2-47E2-80C6-87B71329B5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1FC5E59-3CD2-47E2-80C6-87B71329B5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8819B3-9457-4ADD-922E-DBE165430AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8819B3-9457-4ADD-922E-DBE165430AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8819B3-9457-4ADD-922E-DBE165430AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8819B3-9457-4ADD-922E-DBE165430AD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
