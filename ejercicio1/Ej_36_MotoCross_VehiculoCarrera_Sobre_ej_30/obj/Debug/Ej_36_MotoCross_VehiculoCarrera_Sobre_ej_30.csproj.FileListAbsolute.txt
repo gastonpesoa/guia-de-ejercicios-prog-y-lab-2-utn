@@ -5,3 +5,10 @@ C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30\obj\Debug\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30.csproj.CoreCompileInputs.cache
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30\obj\Debug\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30.exe
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30\obj\Debug\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30\bin\Debug\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30.exe.config
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30\bin\Debug\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30\bin\Debug\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30\obj\Debug\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30.csprojAssemblyReference.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30\obj\Debug\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30.csproj.CoreCompileInputs.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30\obj\Debug\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30\obj\Debug\Ej_36_MotoCross_VehiculoCarrera_Sobre_ej_30.pdb

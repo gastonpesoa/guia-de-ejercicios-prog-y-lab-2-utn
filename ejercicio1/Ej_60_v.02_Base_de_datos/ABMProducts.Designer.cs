@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.dataGridViewProducts = new System.Windows.Forms.DataGridView();
+            this.ProductId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Color = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ListPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblProductId = new System.Windows.Forms.Label();
             this.txtBoxProductId = new System.Windows.Forms.TextBox();
             this.textBoxName = new System.Windows.Forms.TextBox();
@@ -41,10 +45,8 @@
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
-            this.ProductId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Color = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ListPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.listBoxProducts = new System.Windows.Forms.ListBox();
+            this.btnBuscarTodos = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProducts)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,6 +62,26 @@
             this.dataGridViewProducts.Name = "dataGridViewProducts";
             this.dataGridViewProducts.Size = new System.Drawing.Size(596, 226);
             this.dataGridViewProducts.TabIndex = 0;
+            // 
+            // ProductId
+            // 
+            this.ProductId.HeaderText = "Producto ID";
+            this.ProductId.Name = "ProductId";
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            // 
+            // Color
+            // 
+            this.Color.HeaderText = "Color";
+            this.Color.Name = "Color";
+            // 
+            // ListPrice
+            // 
+            this.ListPrice.HeaderText = "Precio de lista";
+            this.ListPrice.Name = "ListPrice";
             // 
             // lblProductId
             // 
@@ -144,6 +166,7 @@
             this.btnModificar.TabIndex = 11;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnBorrar
             // 
@@ -164,31 +187,31 @@
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
-            // ProductId
+            // listBoxProducts
             // 
-            this.ProductId.HeaderText = "Producto ID";
-            this.ProductId.Name = "ProductId";
+            this.listBoxProducts.FormattingEnabled = true;
+            this.listBoxProducts.Location = new System.Drawing.Point(216, 117);
+            this.listBoxProducts.Name = "listBoxProducts";
+            this.listBoxProducts.Size = new System.Drawing.Size(393, 121);
+            this.listBoxProducts.TabIndex = 14;
             // 
-            // Nombre
+            // btnBuscarTodos
             // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            // 
-            // Color
-            // 
-            this.Color.HeaderText = "Color";
-            this.Color.Name = "Color";
-            // 
-            // ListPrice
-            // 
-            this.ListPrice.HeaderText = "Precio de lista";
-            this.ListPrice.Name = "ListPrice";
+            this.btnBuscarTodos.Location = new System.Drawing.Point(216, 71);
+            this.btnBuscarTodos.Name = "btnBuscarTodos";
+            this.btnBuscarTodos.Size = new System.Drawing.Size(165, 23);
+            this.btnBuscarTodos.TabIndex = 15;
+            this.btnBuscarTodos.Text = "Buscar todos";
+            this.btnBuscarTodos.UseVisualStyleBackColor = true;
+            this.btnBuscarTodos.Click += new System.EventHandler(this.btnBuscarTodos_Click);
             // 
             // ABMProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(621, 489);
+            this.Controls.Add(this.btnBuscarTodos);
+            this.Controls.Add(this.listBoxProducts);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnModificar);
@@ -230,6 +253,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Color;
         private System.Windows.Forms.DataGridViewTextBoxColumn ListPrice;
+        private System.Windows.Forms.ListBox listBoxProducts;
+        private System.Windows.Forms.Button btnBuscarTodos;
     }
 }
 

@@ -13,7 +13,7 @@ namespace Ej_60_v._02_Base_de_datos
     public partial class ABMProducts : Form
     {
         private DataBaseConecction dBC = null;
-
+        
         public ABMProducts()
         {
             InitializeComponent();
@@ -21,6 +21,7 @@ namespace Ej_60_v._02_Base_de_datos
 
         private void ABMProducts_Load(object sender, EventArgs e)
         {
+
             try
             {
                 this.dBC = new DataBaseConecction();
@@ -100,6 +101,40 @@ namespace Ej_60_v._02_Base_de_datos
             textBoxName.Text = "";
             textBoxColor.Text = "";
             textBoxListPrice.Text = "";
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(txtBoxProductId.Text, out int validId))
+            {
+                //this.ClearTxtBox();
+                try
+                {
+                    if (dBC.UpdateItem(validId))
+                    {
+                        this.MostrarProduct(dBC.SearchProductBydId(validId));
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("El ID debe ser numerico", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
+
+        private void btnBuscarTodos_Click(object sender, EventArgs e)
+        {
+            
+            foreach (Product p in dBC.MostrarTodos())
+            {
+                listBoxProducts.Items.Add(p);
+            }
+            
         }
     }
 }

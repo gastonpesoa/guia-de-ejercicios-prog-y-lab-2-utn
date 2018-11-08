@@ -5,3 +5,10 @@ C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_30_Competencia_AutoF1\obj\Debug\Ej_30_Competencia_AutoF1.csproj.CoreCompileInputs.cache
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_30_Competencia_AutoF1\obj\Debug\Ej_30_Competencia_AutoF1.exe
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_30_Competencia_AutoF1\obj\Debug\Ej_30_Competencia_AutoF1.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_30_Competencia_AutoF1\bin\Debug\Ej_30_Competencia_AutoF1.exe.config
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_30_Competencia_AutoF1\bin\Debug\Ej_30_Competencia_AutoF1.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_30_Competencia_AutoF1\bin\Debug\Ej_30_Competencia_AutoF1.pdb
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_30_Competencia_AutoF1\obj\Debug\Ej_30_Competencia_AutoF1.csprojAssemblyReference.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_30_Competencia_AutoF1\obj\Debug\Ej_30_Competencia_AutoF1.csproj.CoreCompileInputs.cache
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_30_Competencia_AutoF1\obj\Debug\Ej_30_Competencia_AutoF1.exe
+D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_30_Competencia_AutoF1\obj\Debug\Ej_30_Competencia_AutoF1.pdb

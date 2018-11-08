@@ -1,7 +1,6 @@
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
-D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp1\obj\Debug\Ej_02.csprojAssemblyReference.cache
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp1\obj\Debug\Ej_02.csproj.CoreCompileInputs.cache
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

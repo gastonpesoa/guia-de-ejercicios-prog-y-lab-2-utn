@@ -14,6 +14,7 @@ namespace Ej_60_v._02_Base_de_datos
         private SqlConnection conexion;
         private SqlCommand command;
         private SqlDataReader reader;
+        private List<Product> productos;
         #endregion
 
         #region "Constructor"
@@ -24,6 +25,7 @@ namespace Ej_60_v._02_Base_de_datos
         {
             try
             {
+                this.productos = new List<Product>();
                 this.conexion = new SqlConnection(this.ConnectionStringValue("AdventureWorks2012"));
                 this.command = new SqlCommand();
                 this.command.CommandType = System.Data.CommandType.Text;
@@ -36,6 +38,7 @@ namespace Ej_60_v._02_Base_de_datos
         }
         #endregion
 
+        public List<Product> Productos { get { return this.productos; } }
         #region "Metodos"
         /// <summary>
         /// Retorna el conectionString correspondiente a la base de datos pasada como parametro
@@ -45,6 +48,32 @@ namespace Ej_60_v._02_Base_de_datos
         private string ConnectionStringValue(string name)
         {
             return ConfigurationManager.ConnectionStrings[name].ConnectionString;
+        }
+        
+        public List<Product> MostrarTodos()
+        {
+            Product productAux = null;
+            try
+            {
+                this.conexion.Open();
+                this.command.CommandText = "SELECT * FROM Production.Product";
+                this.reader = this.command.ExecuteReader();
+                
+                if (reader.Read())
+                {
+                    productAux = new Product(reader["Name"].ToString(), reader["Color"].ToString(), Convert.ToDouble(reader["ListPrice"]));
+                    this.productos.Add(productAux);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("No se pudo consultar de la base de datos: " + ex.Message, ex);
+            }
+            finally
+            {
+                this.conexion.Close();
+            }
+            return this.productos;
         }
         /// <summary>
         /// Retorna el item de la base de datos que coindcida con el Id pasado como parametro
@@ -87,9 +116,8 @@ namespace Ej_60_v._02_Base_de_datos
             bool returnAux = false;
             try
             {
-                this.command.CommandText = "INSERT INTO Production.Product(Name, Color, ListPrice) " +
-                    "VALUES('" + p.Name + "', '" + p.Color + "', " + p.ListPrice + ") " +
-                    "SELECT @@INDENTITY AS [ProductID]";
+                this.command.CommandText = "INSERT INTO Production.Product(Name, Color, ListPrice, ProductNumber, SafetyStockLevel, ReorderPoint, StandardCost, DaysToManufacture, SellStartDate) " +
+                    "VALUES('" + p.Name + "', '" + p.Color + "', " + p.ListPrice + ", '" + "DC-456" + "', " + 1 + ", " + 1 + ", " + 1 + ", " + 1 + ", " + 1 + ") ";
 
                 //this.command.Parameters.AddWithValue("@Namee", p.Name);
                 //this.command.Parameters.AddWithValue("@Color", p.Color);
@@ -117,19 +145,17 @@ namespace Ej_60_v._02_Base_de_datos
         /// <param name="p"></param>
         /// <param name="id"></param>
         /// <returns></returns>
-        public bool UpdateItem(Product p, int id)
+        public bool UpdateItem(int id)
         {
+            Product product = null;
             bool returnAux = false;
             try
             {
-                this.command.CommandText = "UPDATE Production.Product " +
-                    "SET Name = @name, Color = @color, ListPrice = @listPrice " +
-                    "WHERE ProductID = @id";
+                product = this.SearchProductBydId(id);
 
-                this.command.Parameters.AddWithValue("@id", id);
-                this.command.Parameters.AddWithValue("@name", p.Name);
-                this.command.Parameters.AddWithValue("@color", p.Color);
-                this.command.Parameters.AddWithValue("@listPrice", p.ListPrice);
+                this.command.CommandText = "UPDATE Production.Product " +
+                    "SET Name = '" + product.Name + "', Color = '" + product.Color + "', ListPrice = " + product.ListPrice + " " +
+                    "WHERE ProductID = " + id + "";
 
                 this.conexion.Open();
                 if (this.command.ExecuteNonQuery() > 0)
@@ -179,9 +205,8 @@ namespace Ej_60_v._02_Base_de_datos
 
             return returnAux;
         }
+
+        
         #endregion
-
-
-
     }
 }

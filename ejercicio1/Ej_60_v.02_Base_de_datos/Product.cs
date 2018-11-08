@@ -54,6 +54,13 @@ namespace Ej_60_v._02_Base_de_datos
         {
             this.ProductID = id;
         }
+
+        public override string ToString()
+        {
+            StringBuilder s = new StringBuilder();
+            s.AppendFormat("{0} {1} {2} {3}", this.ProductID, this.Name, this.Color, this.ListPrice);
+            return s.ToString();
+        }
         #endregion
     }
 }

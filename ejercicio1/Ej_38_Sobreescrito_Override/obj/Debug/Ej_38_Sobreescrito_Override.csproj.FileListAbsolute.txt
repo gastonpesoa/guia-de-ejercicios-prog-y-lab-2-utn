@@ -8,7 +8,6 @@ C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_38_Sobreescrito_Override\bin\Debug\Ej_38_Sobreescrito_Override.exe.config
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_38_Sobreescrito_Override\bin\Debug\Ej_38_Sobreescrito_Override.exe
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_38_Sobreescrito_Override\bin\Debug\Ej_38_Sobreescrito_Override.pdb
-D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_38_Sobreescrito_Override\obj\Debug\Ej_38_Sobreescrito_Override.csprojAssemblyReference.cache
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_38_Sobreescrito_Override\obj\Debug\Ej_38_Sobreescrito_Override.csproj.CoreCompileInputs.cache
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_38_Sobreescrito_Override\obj\Debug\Ej_38_Sobreescrito_Override.exe
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_38_Sobreescrito_Override\obj\Debug\Ej_38_Sobreescrito_Override.pdb

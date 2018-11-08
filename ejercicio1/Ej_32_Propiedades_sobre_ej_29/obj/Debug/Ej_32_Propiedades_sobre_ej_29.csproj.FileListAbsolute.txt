@@ -1,7 +1,6 @@
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_32_Propiedades_sobre_ej_29\bin\Debug\Ej_32_Propiedades_sobre_ej_29.exe.config
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_32_Propiedades_sobre_ej_29\bin\Debug\Ej_32_Propiedades_sobre_ej_29.exe
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_32_Propiedades_sobre_ej_29\bin\Debug\Ej_32_Propiedades_sobre_ej_29.pdb
-D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_32_Propiedades_sobre_ej_29\obj\Debug\Ej_32_Propiedades_sobre_ej_29.csprojAssemblyReference.cache
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_32_Propiedades_sobre_ej_29\obj\Debug\Ej_32_Propiedades_sobre_ej_29.csproj.CoreCompileInputs.cache
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_32_Propiedades_sobre_ej_29\obj\Debug\Ej_32_Propiedades_sobre_ej_29.exe
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_32_Propiedades_sobre_ej_29\obj\Debug\Ej_32_Propiedades_sobre_ej_29.pdb

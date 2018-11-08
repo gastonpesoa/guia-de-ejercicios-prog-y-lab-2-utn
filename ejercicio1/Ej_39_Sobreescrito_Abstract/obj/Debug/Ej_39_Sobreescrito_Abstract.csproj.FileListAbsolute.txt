@@ -8,7 +8,6 @@ C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\bin\Debug\Ej_39_Sobreescrito_Abstract.exe.config
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\bin\Debug\Ej_39_Sobreescrito_Abstract.exe
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\bin\Debug\Ej_39_Sobreescrito_Abstract.pdb
-D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\obj\Debug\Ej_39_Sobreescrito_Abstract.csprojAssemblyReference.cache
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\obj\Debug\Ej_39_Sobreescrito_Abstract.csproj.CoreCompileInputs.cache
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\obj\Debug\Ej_39_Sobreescrito_Abstract.exe
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_39_Sobreescrito_Abstract\obj\Debug\Ej_39_Sobreescrito_Abstract.pdb

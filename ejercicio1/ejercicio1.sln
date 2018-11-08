@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_60_BaseDeDatos", "Ej_60_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_60_v.02_Base_de_datos", "Ej_60_v.02_Base_de_datos\Ej_60_v.02_Base_de_datos.csproj", "{6D8819B3-9457-4ADD-922E-DBE165430AD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_63_Threads", "Ej_63_Threads\Ej_63_Threads.csproj", "{F143379E-1184-43FD-801A-BE3AEF969A16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{6D8819B3-9457-4ADD-922E-DBE165430AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D8819B3-9457-4ADD-922E-DBE165430AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D8819B3-9457-4ADD-922E-DBE165430AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F143379E-1184-43FD-801A-BE3AEF969A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F143379E-1184-43FD-801A-BE3AEF969A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F143379E-1184-43FD-801A-BE3AEF969A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F143379E-1184-43FD-801A-BE3AEF969A16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

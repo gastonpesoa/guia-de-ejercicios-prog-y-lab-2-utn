@@ -4,7 +4,6 @@ D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_27_Pilas_Colas
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_27_Pilas_Colas_Listas\obj\Debug\Ej_27_Pilas_Colas_Listas.csproj.CoreCompileInputs.cache
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_27_Pilas_Colas_Listas\obj\Debug\Ej_27_Pilas_Colas_Listas.exe
 D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_27_Pilas_Colas_Listas\obj\Debug\Ej_27_Pilas_Colas_Listas.pdb
-D:\Gaston-Pesoa\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_27_Pilas_Colas_Listas\obj\Debug\Ej_27_Pilas_Colas_Listas.csprojAssemblyReference.cache
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_27_Pilas_Colas_Listas\bin\Debug\Ej_27_Pilas_Colas_Listas.exe.config
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_27_Pilas_Colas_Listas\bin\Debug\Ej_27_Pilas_Colas_Listas.exe
 C:\Users\Gaston-Pesoa\source\repos\guia-de-ejercicios-prog-y-lab-2-utn\ejercicio1\Ej_27_Pilas_Colas_Listas\bin\Debug\Ej_27_Pilas_Colas_Listas.pdb
