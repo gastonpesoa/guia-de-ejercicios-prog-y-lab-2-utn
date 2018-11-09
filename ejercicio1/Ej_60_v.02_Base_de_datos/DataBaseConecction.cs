@@ -59,9 +59,9 @@ namespace Ej_60_v._02_Base_de_datos
                 this.command.CommandText = "SELECT * FROM Production.Product";
                 this.reader = this.command.ExecuteReader();
                 
-                if (reader.Read())
+                while(reader.Read())
                 {
-                    productAux = new Product(reader["Name"].ToString(), reader["Color"].ToString(), Convert.ToDouble(reader["ListPrice"]));
+                    productAux = new Product(Convert.ToInt16(reader["ProductID"]), reader["Name"].ToString(), reader["Color"].ToString(), Convert.ToDouble(reader["ListPrice"]));
                     this.productos.Add(productAux);
                 }
             }
@@ -205,8 +205,6 @@ namespace Ej_60_v._02_Base_de_datos
 
             return returnAux;
         }
-
-        
         #endregion
     }
 }

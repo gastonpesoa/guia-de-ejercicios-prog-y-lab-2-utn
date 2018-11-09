@@ -13,6 +13,8 @@ namespace Ej_63_Threads
 {
     public partial class Form1 : Form
     {
+        Thread thread;
+
         public Form1()
         {
             InitializeComponent();
@@ -20,8 +22,25 @@ namespace Ej_63_Threads
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.AsignarHora();
-            Thread.Sleep(1000);
+            //this.timer1.Interval = 1000;
+            //this.timer1.Start();
+            thread = new Thread(new ParameterizedThreadStart(this.ActualizarHora));
+            thread.Start(1000);
+        }
+
+        private void ActualizarHora(object o)
+        {
+            while (true)
+            {
+                if (this.lblHora.InvokeRequired)
+                {
+                    this.lblHora.BeginInvoke((MethodInvoker)delegate ()
+                    {
+                        this.AsignarHora();
+                    });
+                }
+                Thread.Sleep((int)o);
+            }
         }
 
         private bool AsignarHora()
@@ -29,5 +48,17 @@ namespace Ej_63_Threads
             this.lblHora.Text = DateTime.Now.ToString("dd/MM/yyyyy hh:mm:ss");
             return true;
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            thread.Abort();
+        }
+
+
+
+        //private void timer1_Tick(object sender, EventArgs e)
+        //{
+        //    this.AsignarHora();
+        //}
     }
 }

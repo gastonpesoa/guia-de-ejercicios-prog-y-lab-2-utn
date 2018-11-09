@@ -194,6 +194,7 @@
             this.listBoxProducts.Name = "listBoxProducts";
             this.listBoxProducts.Size = new System.Drawing.Size(393, 121);
             this.listBoxProducts.TabIndex = 14;
+            this.listBoxProducts.SelectedIndexChanged += new System.EventHandler(this.listBoxProducts_SelectedIndexChanged);
             // 
             // btnBuscarTodos
             // 

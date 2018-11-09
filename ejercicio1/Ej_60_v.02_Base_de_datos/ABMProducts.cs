@@ -124,17 +124,22 @@ namespace Ej_60_v._02_Base_de_datos
             {
                 MessageBox.Show("El ID debe ser numerico", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-
         }
 
         private void btnBuscarTodos_Click(object sender, EventArgs e)
         {
-            
             foreach (Product p in dBC.MostrarTodos())
             {
                 listBoxProducts.Items.Add(p);
             }
-            
+        }
+
+        private void listBoxProducts_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            txtBoxProductId.Text = ((Product)listBoxProducts.SelectedItem).ProductID.ToString();
+            textBoxName.Text = ((Product)listBoxProducts.SelectedItem).Name;
+            textBoxColor.Text = ((Product)listBoxProducts.SelectedItem).Color;
+            textBoxListPrice.Text = ((Product)listBoxProducts.SelectedItem).ListPrice.ToString();
         }
     }
 }
