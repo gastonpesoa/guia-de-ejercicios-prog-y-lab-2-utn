@@ -21,7 +21,6 @@ namespace Ej_60_v._02_Base_de_datos
 
         private void ABMProducts_Load(object sender, EventArgs e)
         {
-
             try
             {
                 this.dBC = new DataBaseConecction();

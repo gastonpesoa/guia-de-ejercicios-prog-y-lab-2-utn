@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace Ej_67_Eventos_Temporizador
 {
     public delegate void encargadoTiempo();
+
     public class Temporizador
     {
         public event encargadoTiempo EventoTiempo;
-        private System.Threading.Thread hilo;
+        private Thread hilo;
         private int intervalo;
 
         public bool Activo
@@ -20,7 +22,7 @@ namespace Ej_67_Eventos_Temporizador
             {
                 if (value == true && !this.hilo.IsAlive)
                 {
-                    hilo = new System.Threading.Thread(Corriendo);
+                    hilo = new Thread(Corriendo);
                     this.hilo.Start();
                 }
                 else
@@ -33,6 +35,19 @@ namespace Ej_67_Eventos_Temporizador
             }
         }
 
-        private void Corriendo() { }
+        public int Intervalo
+        {
+            get { return this.intervalo; }
+            set { this.intervalo = value; }
+        }
+
+        private void Corriendo()
+        {
+            while (true)
+            {
+                EventoTiempo();
+                Thread.Sleep(this.Intervalo);
+            }
+        }
     }
 }
