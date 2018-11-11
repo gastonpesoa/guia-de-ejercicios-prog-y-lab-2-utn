@@ -8,6 +8,7 @@
 // Fix potential problems in example 02.0
 //
 // assign delegate by writing the shortened version
+// using anonymous methods and lamda expressions
 
 using System;
 using System.Collections.Generic;
@@ -114,21 +115,42 @@ namespace Reloj_event_delegate
     {
         public void Subscribe(Clock theClock)
         {
-            theClock.SecondChanged += WriteLogEntry;
+            // Anonymous methods allow you to pass a code block rather than the name of the method. 
+            // This can make for code that is more efficient and easier to maintain, 
+            // and the anonymous method has access to the variables in the scope in which they are defined.
+            //
+            // Notice that rather than registering an instance of a delegate, you use the keyword delegate, 
+            // followed by the parameters that would be passed to your method, 
+            // followed by the body of your method encased in braces and terminated by a semicolon.
+            // This method has no name; hence, it is anonymous.
+            // You cannot invoke the method except through the delegate; but that is exactly what you want
+            theClock.SecondChanged += delegate (object aClock, TimeInfoEventArgs ti)
+            {
+                Console.WriteLine("Logging to file: {0}:{1}:{2}",
+                ti.hour.ToString(), ti.minute.ToString(), ti.second.ToString());
+            };
+
+            // Example of lamda expressions
+            // The lambda operator => is newly introduced in C# 3.0 and is read as "goes to". 
+            // The left operand is a list of zero or more input parameters, 
+            // and the right operand is the body of the lambda expression. 
+            // Notice that => is an operator, which means that the preceding line of code is an expression. 
+            // Just as x+x is an expression that returns a value-if x is 2, 
+            // the expression returns the int value 4-a lambda expression is an expression that returns a method. 
+            // It's not a method by itself. It's tricky to think of expressions as returning a method instead of a value, 
+            //theClock.SecondChanged +=
+            //    (aClock, ti) =>
+            //    {
+            //        Console.WriteLine("Current Time: {0}:{1}:{2}",
+            //                           ti.hour.ToString(),
+            //                           ti.minute.ToString(),
+            //                           ti.second.ToString());
+            //    };
 
             // Classes can no longer attempt to subscribe 
             // to the event using the assignment operator (=)
             //
             //theClock.SecondChanged = new Clock.SecondChangeHandler(WriteLogEntry);
-        }
-
-        // this method should write to a file
-        // we write to the console to see the effect
-        // this object keeps no state
-        public void WriteLogEntry(object theClock, TimeInfoEventArgs ti)
-        {
-            Console.WriteLine("Logging to file: {0}:{1}:{2}",
-                ti.hour.ToString(), ti.minute.ToString(), ti.second.ToString());
         }
     }
 

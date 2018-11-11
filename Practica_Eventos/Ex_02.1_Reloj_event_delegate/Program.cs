@@ -8,6 +8,7 @@
 // Fix potential problems in example 02.0
 //
 // assign delegate by writing the shortened version
+// using anonymous methods and lamda expressions
 
 using System;
 using System.Collections.Generic;
