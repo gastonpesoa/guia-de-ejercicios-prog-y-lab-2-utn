@@ -20,14 +20,14 @@ namespace Ej_67_Eventos_Temporizador
             get { return this.hilo.IsAlive; }
             set
             {
-                if (value == true && !this.hilo.IsAlive)
+                if ((value == true && this.hilo == null) || (!this.hilo.IsAlive && this.hilo != null))
                 {
                     hilo = new Thread(Corriendo);
                     this.hilo.Start();
                 }
                 else
                 {
-                    if (value == false && this.hilo.IsAlive)
+                    if (value == false && this.hilo.IsAlive && this.hilo != null)
                     {
                         this.hilo.Abort();
                     }
@@ -41,12 +41,21 @@ namespace Ej_67_Eventos_Temporizador
             set { this.intervalo = value; }
         }
 
+        public Temporizador(int intervalo)
+        {
+            this.Intervalo = intervalo;
+        }
+
         private void Corriendo()
         {
             while (true)
             {
-                EventoTiempo();
                 Thread.Sleep(this.Intervalo);
+
+                if (EventoTiempo != null)
+                {
+                    EventoTiempo();
+                }
             }
         }
     }

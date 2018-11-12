@@ -26,8 +26,6 @@ namespace Ej_63_Threads
             //this.timer1.Start();
             thread = new Thread(new ParameterizedThreadStart(this.ActualizarHora));
             thread.Start(1000);
-
-            
         }
 
         private void ActualizarHora(object o)
