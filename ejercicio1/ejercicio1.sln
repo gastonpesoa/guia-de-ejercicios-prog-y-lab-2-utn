@@ -119,6 +119,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_68_FormPersona_eventos",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_69_MDI_eventos", "Ej_69_MDI_eventos\Ej_69_MDI_eventos.csproj", "{BBD61278-EF84-4FC4-B9CB-9C93BC4DE4FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_72_Metodos_De_Extencion", "Ej_72_Metodos_De_Extencion\Ej_72_Metodos_De_Extencion.csproj", "{4868AA55-7F3F-415A-92BA-E58B24440A4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -357,6 +359,10 @@ Global
 		{BBD61278-EF84-4FC4-B9CB-9C93BC4DE4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBD61278-EF84-4FC4-B9CB-9C93BC4DE4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBD61278-EF84-4FC4-B9CB-9C93BC4DE4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4868AA55-7F3F-415A-92BA-E58B24440A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4868AA55-7F3F-415A-92BA-E58B24440A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4868AA55-7F3F-415A-92BA-E58B24440A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4868AA55-7F3F-415A-92BA-E58B24440A4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -92,11 +92,13 @@ namespace _20180628_SP.v1
                 {
                     MessageBox.Show((int.Parse(lblAfirmativo.Text) - int.Parse(lblNegativo.Text)) > 0 ? "Es Ley" : "No es Ley", txtLeyNombre.Text);
                     // Guardar resultados
+                    //XML
+
                     serializarXML = new SerializarXML<Votacion>();
                     serializarXML.Guardar(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/Votación.xml", votacion);
-
-                    dao = new Dao();
-                    dao.Guardar(null, votacion);
+                    //SQL 
+                    //dao = new Dao();
+                    //dao.Guardar(null, votacion);
                 }
             }
         }
@@ -124,7 +126,10 @@ namespace _20180628_SP.v1
 
         private void FrmSenadores_FormClosing(object sender, FormClosingEventArgs e)
         {
-            t.Abort();
+            if (!(t is null))
+            {
+                t.Abort();
+            }
         }
     }
 }

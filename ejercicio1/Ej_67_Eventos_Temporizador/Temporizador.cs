@@ -50,11 +50,10 @@ namespace Ej_67_Eventos_Temporizador
         {
             while (true)
             {
-                Thread.Sleep(this.Intervalo);
-
                 if (EventoTiempo != null)
                 {
                     EventoTiempo();
+                    Thread.Sleep(this.Intervalo);
                 }
             }
         }

@@ -51,7 +51,7 @@ namespace Entidades
         {
             this.nombreLey = nombreLey;
             this.senadores = senadores;
-        }
+         }
 
         public void Simular()
         {
@@ -63,7 +63,7 @@ namespace Entidades
             for (int index = 0; index < this.senadores.Count; index++)
             {
                 // Duermo el hilo
-                System.Threading.Thread.Sleep(20);
+                System.Threading.Thread.Sleep(100);
 
                 // Leo el senador actual
                 KeyValuePair<string, EVoto> k = this.senadores.ElementAt(index);

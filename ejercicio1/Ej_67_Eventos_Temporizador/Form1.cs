@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+ 
 namespace Ej_67_Eventos_Temporizador
 {
     public partial class Form1 : Form
@@ -35,16 +35,16 @@ namespace Ej_67_Eventos_Temporizador
 
         private void ActualizarHora(object o)
         {
-            while (true)
+            if (this.lblHora.InvokeRequired)
             {
-                if (this.lblHora.InvokeRequired)
+                this.lblHora.BeginInvoke((MethodInvoker)delegate 
                 {
-                    this.lblHora.BeginInvoke((MethodInvoker)delegate ()
-                    {
-                        this.AsignarHora();
-                    });
-                }
-                Thread.Sleep((int)o);
+                    this.AsignarHora();
+                });
+            }
+            else
+            {
+                this.AsignarHora();
             }
         }
 
